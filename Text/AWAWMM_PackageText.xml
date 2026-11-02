@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWAWMM_PackageText -->
+<!-- Author: Awase -->
+<!-- DateCreated: 10/4/2026 5:40:21 PM -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_AWAWMM_MOD_TITLE" Language="en_US">
+            <Text>[COLOR_LIGHTBLUE]AWAW Mod Manager[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TITLE" Language="zh_Hans_CN">
+            <Text>[COLOR_LIGHTBLUE]AWAW 模组管理器[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TITLE" Language="zh_Hant_HK">
+            <Text>[COLOR_LIGHTBLUE]AWAW 模組管理器[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TITLE" Language="ja_JP">
+            <Text>[COLOR_LIGHTBLUE]AWAW MODマネージャー[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TITLE" Language="ko_KR">
+            <Text>[COLOR_LIGHTBLUE]AWAW 모드 매니저[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TITLE" Language="ru_RU">
+            <Text>[COLOR_LIGHTBLUE]AWAW Менеджер модов[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TEASER" Language="en_US">
+            <Text>A powerful, modern mod manager that makes managing mods easy both in the main menu and in-game!</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TEASER" Language="zh_Hans_CN">
+            <Text>一个强大的现代化模组管理器，帮你在主菜单和对局内轻松管理模组！</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TEASER" Language="zh_Hant_HK">
+            <Text>一個強大的現代化模組管理器，幫你在主選單與對局內輕鬆管理模組！</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TEASER" Language="ja_JP">
+            <Text>メインメニューでもゲーム中でも、MODの管理が快適になるパワフルでモダンなMODマネージャーです！</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TEASER" Language="ko_KR">
+            <Text>메인 메뉴와 게임 안에서 모드를 쉽게 관리할 수 있는 강력하고 현대적인 모드 매니저입니다!</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_TEASER" Language="ru_RU">
+            <Text>Мощный современный менеджер модов, который упрощает работу с модами в главном меню и во время игры!</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_DESCRIPTION" Language="en_US">
+            <Text>A powerful, modern mod manager that makes managing mods easy both in the main menu and in-game![NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]After enabling this mod for the first time, you must restart the game for it to take effect![ENDCOLOR][NEWLINE][NEWLINE]What this manager can do:[NEWLINE]    Favorite the mods you like and show them first, and add aliases to mods.[NEWLINE]    Manage mods even in-game, including enabling and disabling them; the main menu and the in-game manager share the same data.[NEWLINE]    Search mod names, authors, aliases and subscription IDs to find mods quickly.[NEWLINE]    You can also open the manager directly from the Create Game screen and the Save / Load screens.[NEWLINE]    Create groups, put mods in them, and then show only the groups you want to see.[NEWLINE]    Use a range of filters to show only the mods you want to see.[NEWLINE]    Group mods by author and sort them in several ways.[NEWLINE]    Unsubscribe any mod directly in the game.[NEWLINE]    Supports multiplayer games.[NEWLINE]    Supports Simplified Chinese, Traditional Chinese, English, Japanese, Korean and Russian.[NEWLINE][NEWLINE]Notes:[NEWLINE]    After enabling the manager for the first time, you must restart the game for it to take effect. If you disable it, enabling it again also requires a restart.[NEWLINE]    In-game, you can open the manager from the pause menu. You can also open it from the Save / Load screens.[NEWLINE]    Enabling or disabling mods in-game takes effect after reloading the save. If a mod affects saved games, the change applies only when you start a new game from the main menu.[NEWLINE]    This manager does not affect game balance.[NEWLINE]    Mods cannot be enabled or disabled in a multiplayer game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>一个强大的现代化模组管理器，帮你在主菜单和对局内轻松管理模组！[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]首次启用本模组后，必须重启游戏才能生效！[ENDCOLOR][NEWLINE][NEWLINE]此管理器的功能：[NEWLINE]    收藏/置顶你喜欢的模组，给模组添加备注名。[NEWLINE]    对局内也能管理、启用/禁用模组，主菜单和对局内数据互通。[NEWLINE]    搜索模组名称、作者、备注名、订阅 ID，快速找到模组。[NEWLINE]    创建游戏界面、保存/加载界面也能直接进入管理器。[NEWLINE]    新建各种分组并将模组放进去，然后只显示你想看到的分组。[NEWLINE]    通过多种筛选条件，只显示你想看到的模组。[NEWLINE]    支持按作者分组，支持多种排序方式。[NEWLINE]    直接在游戏中退订任意模组。[NEWLINE]    支持多人游戏。[NEWLINE]    支持简中、繁中、英语、日语、韩语、俄语。[NEWLINE][NEWLINE]注意事项：[NEWLINE]    首次启用管理器后，必须重启游戏才能生效。禁用管理器后，再次启用它也需要重启游戏。[NEWLINE]    对局内可通过暂停菜单进入管理器。也能通过保存/加载界面进入管理器。[NEWLINE]    对局内启用/禁用模组需要重载存档才能生效。模组影响存档时，改动仅在主菜单创建新游戏时生效。[NEWLINE]    本管理器不影响游戏平衡。[NEWLINE]    多人对局内无法启用/禁用模组。[NEWLINE][NEWLINE]作者的 QQ 群：[COLOR_LIGHTBLUE]1063692737[ENDCOLOR]，欢迎来反馈和聊天。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_DESCRIPTION" Language="zh_Hant_HK">
+            <Text>一個強大的現代化模組管理器，幫你在主選單與對局內輕鬆管理模組！[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]首次啟用本模組後，必須重啟遊戲才能生效！[ENDCOLOR][NEWLINE][NEWLINE]此管理器的功能：[NEWLINE]    收藏/置頂你喜歡的模組，為模組新增備註名。[NEWLINE]    對局內也能管理、啟用/停用模組，主選單與對局內資料互通。[NEWLINE]    搜尋模組名稱、作者、備註名、訂閱 ID，快速找到模組。[NEWLINE]    建立遊戲介面、儲存/載入介面也能直接進入管理器。[NEWLINE]    建立各種分組並將模組放入其中，然後只顯示你想看到的分組。[NEWLINE]    透過多種篩選條件，只顯示你想看到的模組。[NEWLINE]    支援依作者分組，並支援多種排序方式。[NEWLINE]    直接在遊戲中退訂任意模組。[NEWLINE]    支援多人遊戲。[NEWLINE]    支援簡中、繁中、英語、日語、韓語、俄語。[NEWLINE][NEWLINE]注意事項：[NEWLINE]    首次啟用管理器後，必須重啟遊戲才能生效。停用管理器後，再次啟用它也需要重啟遊戲。[NEWLINE]    對局內可透過暫停選單進入管理器。也能從儲存/載入介面進入管理器。[NEWLINE]    對局內啟用/停用模組需要重載存檔才能生效。模組影響存檔時，變更僅在主選單建立新遊戲時生效。[NEWLINE]    本管理器不影響遊戲平衡。[NEWLINE]    多人對局內無法啟用/停用模組。[NEWLINE][NEWLINE]作者的 QQ 群：[COLOR_LIGHTBLUE]1063692737[ENDCOLOR]，歡迎來反饋和聊天。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_DESCRIPTION" Language="ja_JP">
+            <Text>メインメニューでもゲーム中でも、MODの管理が快適になるパワフルでモダンなMODマネージャーです！[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]このMODを初めて有効にした後は、反映するためにゲームを再起動する必要があります！[ENDCOLOR][NEWLINE][NEWLINE]本マネージャーの機能:[NEWLINE]    お気に入りのMODを登録して一覧の先頭に表示し、MODに別名を設定できます。[NEWLINE]    ゲーム中でもMODを管理し、有効 / 無効の切り替えもできます。メインメニューとゲーム中でデータは共通です。[NEWLINE]    MOD名、作者、別名、サブスクリプション ID で検索し、目的のMODをすばやく見つけられます。[NEWLINE]    ゲーム作成画面、セーブ / ロード画面からも直接マネージャーを開けます。[NEWLINE]    グループをいくつでも作成してMODをまとめ、見たいグループだけを表示できます。[NEWLINE]    さまざまなフィルターで、見たいMODだけを表示できます。[NEWLINE]    作者別のグループ表示と、複数の並べ替えに対応しています。[NEWLINE]    ゲーム内から直接、任意のMODの登録を解除できます。[NEWLINE]    マルチプレイヤーに対応しています。[NEWLINE]    簡体字中国語、繁体字中国語、英語、日本語、韓国語、ロシア語に対応しています。[NEWLINE][NEWLINE]注意事項:[NEWLINE]    マネージャーを初めて有効にした後は、反映するためにゲームを再起動する必要があります。無効にした後、再度有効にする場合もゲームの再起動が必要です。[NEWLINE]    ゲーム中はポーズメニューからマネージャーを開けます。セーブ / ロード画面からもマネージャーを開けます。[NEWLINE]    ゲーム中のMODの有効 / 無効は、セーブデータを再読み込みすると反映されます。セーブデータに影響するMODの変更は、メインメニューから新しいゲームを開始したときにのみ適用されます。[NEWLINE]    本マネージャーはゲームバランスに影響しません。[NEWLINE]    マルチプレイヤーゲームでは、MODの有効 / 無効を切り替えられません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_DESCRIPTION" Language="ko_KR">
+            <Text>메인 메뉴와 게임 안에서 모드를 쉽게 관리할 수 있는 강력하고 현대적인 모드 매니저입니다![NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]이 모드를 처음 활성화한 뒤에는 게임을 다시 시작해야 적용됩니다![ENDCOLOR][NEWLINE][NEWLINE]이 매니저가 할 수 있는 일:[NEWLINE]    마음에 드는 모드를 즐겨찾기로 등록해 목록 맨 위에 표시하고, 모드에 별명을 붙일 수 있습니다.[NEWLINE]    게임 중에도 모드를 관리하고 활성화/비활성화할 수 있으며, 메인 메뉴와 게임 안의 데이터는 공유됩니다.[NEWLINE]    모드 이름, 만든 이, 별명, 구독 ID로 검색해 모드를 빠르게 찾을 수 있습니다.[NEWLINE]    게임 만들기 화면과 저장/불러오기 화면에서도 매니저를 열 수 있습니다.[NEWLINE]    원하는 만큼 그룹을 만들어 모드를 넣고, 보고 싶은 그룹만 표시할 수 있습니다.[NEWLINE]    다양한 필터로 보고 싶은 모드만 표시할 수 있습니다.[NEWLINE]    만든 이별 그룹과 여러 가지 정렬 방식을 지원합니다.[NEWLINE]    게임 안에서 바로 원하는 모드의 구독을 취소할 수 있습니다.[NEWLINE]    멀티 플레이를 지원합니다.[NEWLINE]    중국어 간체, 중국어 번체, 영어, 일본어, 한국어, 러시아어를 지원합니다.[NEWLINE][NEWLINE]주의 사항:[NEWLINE]    매니저를 처음 활성화한 뒤에는 게임을 다시 시작해야 적용됩니다. 비활성화한 뒤 다시 활성화할 때도 재시작이 필요합니다.[NEWLINE]    게임 중에는 일시정지 메뉴에서 매니저로 들어갈 수 있습니다. 저장/불러오기 화면에서도 매니저를 열 수 있습니다.[NEWLINE]    게임 중 모드를 활성화 / 비활성화한 변경 사항은 저장 파일을 다시 불러와야 적용됩니다. 저장된 게임에 영향을 주는 모드는 메인 메뉴에서 새 게임을 시작할 때만 변경 사항이 적용됩니다.[NEWLINE]    이 매니저는 게임 밸런스에 영향을 주지 않습니다.[NEWLINE]    멀티 플레이 게임에서는 모드를 활성화/비활성화할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MOD_DESCRIPTION" Language="ru_RU">
+            <Text>Мощный современный менеджер модов, который упрощает работу с модами в главном меню и во время игры![NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]После первого включения этого мода необходимо перезапустить игру, чтобы изменения вступили в силу![ENDCOLOR][NEWLINE][NEWLINE]Возможности менеджера:[NEWLINE]    Добавляйте любимые моды в избранное, выводите их в начало списка и давайте модам псевдонимы.[NEWLINE]    Управляйте модами даже во время игры, включая включение и отключение: данные главного меню и игры общие.[NEWLINE]    Ищите моды по названию, автору, псевдониму и ID подписки.[NEWLINE]    Также менеджер можно открыть с экрана создания игры и с экранов сохранения и загрузки.[NEWLINE]    Создавайте любое количество групп, объединяйте в них моды и показывайте только нужную.[NEWLINE]    Используйте наборы фильтров, чтобы видеть только нужные моды.[NEWLINE]    Группируйте моды по автору и выбирайте один из нескольких режимов сортировки.[NEWLINE]    Отменяйте подписку на любой мод прямо из игры.[NEWLINE]    Играйте по сети.[NEWLINE]    Поддерживаются упрощенный и традиционный китайский, английский, японский, корейский и русский языки.[NEWLINE][NEWLINE]Примечания:[NEWLINE]    После первого включения менеджера необходимо перезапустить игру. Если отключить менеджер, для повторного включения тоже потребуется перезапуск.[NEWLINE]    Во время игры менеджер можно открыть из меню паузы. Также его можно открыть с экранов сохранения и загрузки.[NEWLINE]    Включение / отключение модов во время игры вступает в силу после повторной загрузки сохранения. Для мода, влияющего на сохранения, изменения применяются только при создании новой игры из главного меню.[NEWLINE]    Этот менеджер не влияет на баланс игры.[NEWLINE]    В сетевой игре нельзя включать и отключать моды.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

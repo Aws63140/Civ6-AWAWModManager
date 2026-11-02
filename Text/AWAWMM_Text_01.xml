@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWAWMM_Text_01 -->
+<!-- Author: Awase -->
+<!-- DateCreated: 10/9/2026 3:00:21 PM -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_AWAWMM_ALIAS_CLEAR" Language="en_US">
+            <Text>Clear Alias</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_CLEAR" Language="zh_Hans_CN">
+            <Text>清除备注名</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_CLEAR" Language="zh_Hant_HK">
+            <Text>清除備註名</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_CLEAR" Language="ja_JP">
+            <Text>別名をクリア</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_CLEAR" Language="ko_KR">
+            <Text>별명 삭제</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_CLEAR" Language="ru_RU">
+            <Text>Очистить</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_HINT" Language="en_US">
+            <Text>Enter an alias (up to 40 characters).</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_HINT" Language="zh_Hans_CN">
+            <Text>点击输入备注名（最多 40 字）</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_HINT" Language="zh_Hant_HK">
+            <Text>輸入備註名（最多 40 個字）</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_HINT" Language="ja_JP">
+            <Text>別名を入力 (最大40文字)</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_HINT" Language="ko_KR">
+            <Text>별명을 입력하십시오(최대 40자).</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_HINT" Language="ru_RU">
+            <Text>Введите псевдоним (до 40 символов).</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_TOOLTIP" Language="en_US">
+            <Text>The alias changes only the displayed name. It cannot contain ; or =.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_TOOLTIP" Language="zh_Hans_CN">
+            <Text>备注名只改变显示名称，且不能包含 ; 或 = 字符。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_TOOLTIP" Language="zh_Hant_HK">
+            <Text>備註名只會變更顯示名稱，且不能包含 ; 或 = 這些字元。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_TOOLTIP" Language="ja_JP">
+            <Text>別名は表示名のみを変更します。また、; や = の文字は使用できません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_TOOLTIP" Language="ko_KR">
+            <Text>별명은 표시되는 이름만 바꿉니다. ; 또는 = 문자는 사용할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ALIAS_TOOLTIP" Language="ru_RU">
+            <Text>Псевдоним меняет только отображаемое имя и не может содержать ; или =.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_AUTHOR_ET_AL" Language="en_US">
+            <Text>et al.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_AUTHOR_ET_AL" Language="zh_Hans_CN">
+            <Text>等</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_AUTHOR_ET_AL" Language="zh_Hant_HK">
+            <Text>等</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_AUTHOR_ET_AL" Language="ja_JP">
+            <Text>ほか</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_AUTHOR_ET_AL" Language="ko_KR">
+            <Text>외</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_AUTHOR_ET_AL" Language="ru_RU">
+            <Text>и др.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP" Language="en_US">
+            <Text>Return to the main menu and save your configuration.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP" Language="zh_Hans_CN">
+            <Text>返回并保存配置。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP" Language="zh_Hant_HK">
+            <Text>返回主選單並儲存設定。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP" Language="ja_JP">
+            <Text>メインメニューに戻り、設定を保存します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP" Language="ko_KR">
+            <Text>메인 메뉴로 돌아가 설정을 저장합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP" Language="ru_RU">
+            <Text>Вернуться в главное меню и сохранить настройки.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL" Language="en_US">
+            <Text>Official</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL" Language="zh_Hans_CN">
+            <Text>官方</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL" Language="zh_Hant_HK">
+            <Text>官方</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL" Language="ja_JP">
+            <Text>公式</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL" Language="ko_KR">
+            <Text>공식</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL" Language="ru_RU">
+            <Text>Офиц.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL_TOOLTIP" Language="en_US">
+            <Text>Official content</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL_TOOLTIP" Language="zh_Hans_CN">
+            <Text>官方内容</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL_TOOLTIP" Language="zh_Hant_HK">
+            <Text>官方內容</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL_TOOLTIP" Language="ja_JP">
+            <Text>公式コンテンツ</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL_TOOLTIP" Language="ko_KR">
+            <Text>공식 콘텐츠</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BADGE_OFFICIAL_TOOLTIP" Language="ru_RU">
+            <Text>Официальный контент</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BOTTOM_SUMMARY" Language="en_US">
+            <Text>Showing {1 : number} / {2 : number} mods · {3 : number} enabled</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BOTTOM_SUMMARY" Language="zh_Hans_CN">
+            <Text>显示 {1 : number} / {2 : number} 个模组 · 已启用 {3 : number} 个</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BOTTOM_SUMMARY" Language="zh_Hant_HK">
+            <Text>顯示 {1 : number} / {2 : number} 個模組 · 已啟用 {3 : number} 個</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BOTTOM_SUMMARY" Language="ja_JP">
+            <Text>{1 : number} / {2 : number}件のMODを表示中・{3 : number}件が有効</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BOTTOM_SUMMARY" Language="ko_KR">
+            <Text>모드 {1 : number} / {2 : number}개 표시 · {3 : number}개 활성화</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_BOTTOM_SUMMARY" Language="ru_RU">
+            <Text>Показано {1 : number} из {2 : number} модов · включено {3 : number}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS" Language="en_US">
+            <Text>Clean Up Invalid Entries</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS" Language="zh_Hans_CN">
+            <Text>清理失效条目</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS" Language="zh_Hant_HK">
+            <Text>清理失效項目</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS" Language="ja_JP">
+            <Text>無効な項目を整理</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS" Language="ko_KR">
+            <Text>잘못된 항목 정리</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS" Language="ru_RU">
+            <Text>Очистить лишнее</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP" Language="en_US">
+            <Text>Remove saved settings for mods that are no longer installed.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP" Language="zh_Hans_CN">
+            <Text>移除未安装模组的配置。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP" Language="zh_Hant_HK">
+            <Text>移除未安裝模組的設定。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP" Language="ja_JP">
+            <Text>インストールされていないMODの設定を削除します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP" Language="ko_KR">
+            <Text>설치되지 않은 모드의 설정을 삭제합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP" Language="ru_RU">
+            <Text>Удалить сохраненные настройки модов, которые больше не установлены.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP" Language="en_US">
+            <Text>Clear the input</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP" Language="zh_Hans_CN">
+            <Text>清空输入</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP" Language="zh_Hant_HK">
+            <Text>清除輸入內容</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP" Language="ja_JP">
+            <Text>入力をクリア</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP" Language="ko_KR">
+            <Text>입력 지우기</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP" Language="ru_RU">
+            <Text>Очистить поле</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE" Language="en_US">
+            <Text>This will disable {1 : number} mods currently shown. Do you want to continue?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE" Language="zh_Hans_CN">
+            <Text>将禁用当前显示的 {1 : number} 个模组，您是否要继续？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE" Language="zh_Hant_HK">
+            <Text>將停用目前顯示的 {1 : number} 個模組，您是否要繼續？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE" Language="ja_JP">
+            <Text>現在表示中の {1 : number}件のMODを無効にします。続行しますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE" Language="ko_KR">
+            <Text>현재 표시된 모드 {1 : number}개를 비활성화합니다. 계속하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE" Language="ru_RU">
+            <Text>Будет отключено модов: {1 : number} (из показанных). Продолжить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE_ONE" Language="en_US">
+            <Text>This will disable {1 : number} mod currently shown. Do you want to continue?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE_ONE" Language="zh_Hans_CN">
+            <Text>将禁用当前显示的 {1 : number} 个模组，您是否要继续？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE_ONE" Language="zh_Hant_HK">
+            <Text>將停用目前顯示的 {1 : number} 個模組，您是否要繼續？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE_ONE" Language="ja_JP">
+            <Text>現在表示中の {1 : number}件のMODを無効にします。続行しますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE_ONE" Language="ko_KR">
+            <Text>현재 표시된 모드 {1 : number}개를 비활성화합니다. 계속하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_DISABLE_ONE" Language="ru_RU">
+            <Text>Будет отключен {1 : number} мод из показанных. Продолжить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE" Language="en_US">
+            <Text>This will enable {1 : number} mods currently shown. Do you want to continue?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE" Language="zh_Hans_CN">
+            <Text>将启用当前显示的 {1 : number} 个模组，您是否要继续？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE" Language="zh_Hant_HK">
+            <Text>將啟用目前顯示的 {1 : number} 個模組，您是否要繼續？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE" Language="ja_JP">
+            <Text>現在表示中の {1 : number}件のMODを有効にします。続行しますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE" Language="ko_KR">
+            <Text>현재 표시된 모드 {1 : number}개를 활성화합니다. 계속하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE" Language="ru_RU">
+            <Text>Будет включено модов: {1 : number} (из показанных). Продолжить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE_ONE" Language="en_US">
+            <Text>This will enable {1 : number} mod currently shown. Do you want to continue?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE_ONE" Language="zh_Hans_CN">
+            <Text>将启用当前显示的 {1 : number} 个模组，您是否要继续？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE_ONE" Language="zh_Hant_HK">
+            <Text>將啟用目前顯示的 {1 : number} 個模組，您是否要繼續？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE_ONE" Language="ja_JP">
+            <Text>現在表示中の {1 : number}件のMODを有効にします。続行しますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE_ONE" Language="ko_KR">
+            <Text>현재 표시된 모드 {1 : number}개를 활성화합니다. 계속하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_BATCH_ENABLE_ONE" Language="ru_RU">
+            <Text>Будет включен {1 : number} мод из показанных. Продолжить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_CLEANUP" Language="en_US">
+            <Text>Clean up invalid entries? This deletes the manager's saved settings for mods that are no longer installed.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_CLEANUP" Language="zh_Hans_CN">
+            <Text>清理失效条目吗？此操作将删除未安装模组的管理器配置。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_CLEANUP" Language="zh_Hant_HK">
+            <Text>要清理失效項目嗎？此操作將刪除未安裝模組的管理器設定。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_CLEANUP" Language="ja_JP">
+            <Text>無効な項目を整理しますか？インストールされていないMODのマネージャー設定が削除されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_CLEANUP" Language="ko_KR">
+            <Text>잘못된 항목을 정리하시겠습니까? 설치되지 않은 모드의 관리자 설정이 삭제됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_CLEANUP" Language="ru_RU">
+            <Text>Очистить недействительные записи? Будут удалены сохраненные настройки менеджера для неустановленных модов.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DELETE_CONFIG" Language="en_US">
+            <Text>[COLOR_FLOAT_GOLD]Delete all data saved by this manager (favorites, aliases, groups) and its configuration file? This cannot be undone.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DELETE_CONFIG" Language="zh_Hans_CN">
+            <Text>[COLOR_FLOAT_GOLD]删除本管理器保存的全部数据（收藏 / 备注名 / 分组）与配置文件？此操作无法撤销。[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DELETE_CONFIG" Language="zh_Hant_HK">
+            <Text>[COLOR_FLOAT_GOLD]刪除此管理器儲存的全部資料（收藏 / 備註名 / 分組）與設定檔？此操作無法復原。[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DELETE_CONFIG" Language="ja_JP">
+            <Text>[COLOR_FLOAT_GOLD]このマネージャーが保存したすべてのデータ (お気に入り / 別名 / グループ) と設定ファイルを削除しますか？この操作は元に戻せません。[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DELETE_CONFIG" Language="ko_KR">
+            <Text>[COLOR_FLOAT_GOLD]이 관리자가 저장한 모든 데이터(즐겨찾기, 별명, 그룹)와 설정 파일을 삭제합니다. 이 작업은 되돌릴 수 없습니다.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DELETE_CONFIG" Language="ru_RU">
+            <Text>[COLOR_FLOAT_GOLD]Удалить все данные менеджера (избранное, псевдонимы, группы) и его файл настроек? Это действие необратимо.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_CASCADE" Language="en_US">
+            <Text>Disabling this mod requires disabling the mods that depend on it. Disable all of them?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_CASCADE" Language="zh_Hans_CN">
+            <Text>禁用此模组需要同时禁用依赖它的模组。是否全部禁用？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_CASCADE" Language="zh_Hant_HK">
+            <Text>停用此模組需要同時停用依賴它的模組。是否全部停用？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_CASCADE" Language="ja_JP">
+            <Text>このMODを無効にするには、これに依存するMODも無効にする必要があります。すべて無効にしますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_CASCADE" Language="ko_KR">
+            <Text>이 모드를 비활성화하려면 이 모드에 의존하는 모드도 비활성화해야 합니다. 모두 비활성화하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_CASCADE" Language="ru_RU">
+            <Text>Чтобы отключить этот мод, нужно отключить зависящие от него моды. Отключить все?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_SELF" Language="en_US">
+            <Text>Disable this mod manager?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_SELF" Language="zh_Hans_CN">
+            <Text>禁用本模组管理器？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_SELF" Language="zh_Hant_HK">
+            <Text>停用本模組管理器？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_SELF" Language="ja_JP">
+            <Text>このMODマネージャーを無効にしますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_SELF" Language="ko_KR">
+            <Text>이 모드 매니저를 비활성화하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_DISABLE_SELF" Language="ru_RU">
+            <Text>Отключить этот менеджер модов?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE" Language="en_US">
+            <Text>Confirm</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE" Language="zh_Hans_CN">
+            <Text>请确认</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE" Language="zh_Hant_HK">
+            <Text>請確認</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE" Language="ja_JP">
+            <Text>確認</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE" Language="ko_KR">
+            <Text>확인</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE" Language="ru_RU">
+            <Text>Подтверждение</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_BATCH" Language="en_US">
+            <Text>Confirm Bulk Action</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_BATCH" Language="zh_Hans_CN">
+            <Text>确认批量操作</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_BATCH" Language="zh_Hant_HK">
+            <Text>確認多項操作</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_BATCH" Language="ja_JP">
+            <Text>一括操作の確認</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_BATCH" Language="ko_KR">
+            <Text>일괄 작업 확인</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_BATCH" Language="ru_RU">
+            <Text>Подтверждение массового действия</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_CLEANUP" Language="en_US">
+            <Text>Clean Up Invalid Entries</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_CLEANUP" Language="zh_Hans_CN">
+            <Text>清理失效条目</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_CLEANUP" Language="zh_Hant_HK">
+            <Text>清理失效項目</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_CLEANUP" Language="ja_JP">
+            <Text>無効な項目の整理</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_CLEANUP" Language="ko_KR">
+            <Text>잘못된 항목 정리</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_CLEANUP" Language="ru_RU">
+            <Text>Очистка недействительных записей</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DELETE_CONFIG" Language="en_US">
+            <Text>Delete Manager Configuration</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DELETE_CONFIG" Language="zh_Hans_CN">
+            <Text>删除管理器配置</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DELETE_CONFIG" Language="zh_Hant_HK">
+            <Text>刪除管理器設定</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DELETE_CONFIG" Language="ja_JP">
+            <Text>マネージャー設定の削除</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DELETE_CONFIG" Language="ko_KR">
+            <Text>관리자 설정 삭제</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DELETE_CONFIG" Language="ru_RU">
+            <Text>Удаление настроек менеджера</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DISABLE_CASCADE" Language="en_US">
+            <Text>Disable Dependent Mods</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DISABLE_CASCADE" Language="zh_Hans_CN">
+            <Text>禁用子模组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DISABLE_CASCADE" Language="zh_Hant_HK">
+            <Text>停用子模組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DISABLE_CASCADE" Language="ja_JP">
+            <Text>依存MODの無効化</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DISABLE_CASCADE" Language="ko_KR">
+            <Text>의존 모드 비활성화</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_TITLE_DISABLE_CASCADE" Language="ru_RU">
+            <Text>Отключение зависимых модов</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_UNSUBSCRIBE" Language="en_US">
+            <Text>Unsubscribe? The mod's files will be deleted when the game closes.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_UNSUBSCRIBE" Language="zh_Hans_CN">
+            <Text>确定取消订阅？游戏关闭后将删除未订阅的模组文件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_UNSUBSCRIBE" Language="zh_Hant_HK">
+            <Text>確定取消訂閱？遊戲關閉後將刪除未訂閱的模組檔案。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_UNSUBSCRIBE" Language="ja_JP">
+            <Text>登録解除しますか？ゲーム終了後、登録解除したMODのファイルは削除されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_UNSUBSCRIBE" Language="ko_KR">
+            <Text>구독을 취소하시겠습니까? 게임을 종료하면 모드 파일이 삭제됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_UNSUBSCRIBE" Language="ru_RU">
+            <Text>Отменить подписку? Файлы мода будут удалены при закрытии игры.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_YES_HINT" Language="en_US">
+            <Text>Type YES to confirm this action: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_YES_HINT" Language="zh_Hans_CN">
+            <Text>请输入 YES 以确认此操作：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_YES_HINT" Language="zh_Hant_HK">
+            <Text>請輸入 YES 以確認此操作：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_YES_HINT" Language="ja_JP">
+            <Text>この操作を確定するには YES と入力してください: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_YES_HINT" Language="ko_KR">
+            <Text>이 작업을 확인하려면 YES를 입력하십시오: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_CONFIRM_YES_HINT" Language="ru_RU">
+            <Text>Введите YES для подтверждения: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG" Language="en_US">
+            <Text>Delete Config</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG" Language="zh_Hans_CN">
+            <Text>删除管理器配置</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG" Language="zh_Hant_HK">
+            <Text>刪除管理器設定</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG" Language="ja_JP">
+            <Text>設定を削除</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG" Language="ko_KR">
+            <Text>설정 삭제</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG" Language="ru_RU">
+            <Text>Удалить настройки</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP" Language="en_US">
+            <Text>Delete all data saved by this manager (favorites, aliases, groups) and its configuration file.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP" Language="zh_Hans_CN">
+            <Text>删除本管理器保存的全部数据（收藏 / 备注名 / 分组）与配置文件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP" Language="zh_Hant_HK">
+            <Text>刪除此管理器儲存的全部資料（收藏 / 備註名 / 分組）與設定檔。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP" Language="ja_JP">
+            <Text>このマネージャーが保存したすべてのデータ (お気に入り / 別名 / グループ) と設定ファイルを削除します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP" Language="ko_KR">
+            <Text>이 관리자가 저장한 모든 데이터(즐겨찾기, 별명, 그룹)와 설정 파일을 삭제합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP" Language="ru_RU">
+            <Text>Удалить все данные менеджера (избранное, псевдонимы, группы) и его файл настроек.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_ALIAS" Language="en_US">
+            <Text>Alias: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_ALIAS" Language="zh_Hans_CN">
+            <Text>备注名：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_ALIAS" Language="zh_Hant_HK">
+            <Text>備註名：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_ALIAS" Language="ja_JP">
+            <Text>別名: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_ALIAS" Language="ko_KR">
+            <Text>별명:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_ALIAS" Language="ru_RU">
+            <Text>Псевдоним:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_SUBSCRIPTION_ID" Language="en_US">
+            <Text>Subscription ID: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_SUBSCRIPTION_ID" Language="zh_Hans_CN">
+            <Text>订阅 ID：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_SUBSCRIPTION_ID" Language="zh_Hant_HK">
+            <Text>訂閱 ID：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_SUBSCRIPTION_ID" Language="ja_JP">
+            <Text>サブスクリプション ID: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_SUBSCRIPTION_ID" Language="ko_KR">
+            <Text>구독 ID:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAILS_SUBSCRIPTION_ID" Language="ru_RU">
+            <Text>ID подписки:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AFFECTS" Language="en_US">
+            <Text>Affects Saved Games</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AFFECTS" Language="zh_Hans_CN">
+            <Text>影响存档</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AFFECTS" Language="zh_Hant_HK">
+            <Text>影響存檔</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AFFECTS" Language="ja_JP">
+            <Text>セーブデータに影響</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AFFECTS" Language="ko_KR">
+            <Text>저장된 게임에 영향</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AFFECTS" Language="ru_RU">
+            <Text>Влияет на сохранения</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AUTHOR" Language="en_US">
+            <Text>Author</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AUTHOR" Language="zh_Hans_CN">
+            <Text>作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AUTHOR" Language="zh_Hant_HK">
+            <Text>作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AUTHOR" Language="ja_JP">
+            <Text>作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AUTHOR" Language="ko_KR">
+            <Text>만든 이</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_AUTHOR" Language="ru_RU">
+            <Text>Автор</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY" Language="en_US">
+            <Text>Required Mods</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY" Language="zh_Hans_CN">
+            <Text>依赖模组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY" Language="zh_Hant_HK">
+            <Text>依賴模組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY" Language="ja_JP">
+            <Text>依存MOD</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY" Language="ko_KR">
+            <Text>필요한 모드</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY" Language="ru_RU">
+            <Text>Требуемые моды</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP" Language="en_US">
+            <Text>Other mods that this mod depends on.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP" Language="zh_Hans_CN">
+            <Text>此模组依赖的其他模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP" Language="zh_Hant_HK">
+            <Text>此模組依賴的其他模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP" Language="ja_JP">
+            <Text>このMODが依存している他のMODです。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP" Language="ko_KR">
+            <Text>이 모드가 의존하는 다른 모드입니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP" Language="ru_RU">
+            <Text>Другие моды, от которых зависит этот мод.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS" Language="en_US">
+            <Text>Required By</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS" Language="zh_Hans_CN">
+            <Text>被以下模组依赖</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS" Language="zh_Hant_HK">
+            <Text>被以下模組依賴</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS" Language="ja_JP">
+            <Text>これに依存するMOD</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS" Language="ko_KR">
+            <Text>필요로 하는 모드</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS" Language="ru_RU">
+            <Text>Требуется для</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP" Language="en_US">
+            <Text>Other mods that depend on this mod.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP" Language="zh_Hans_CN">
+            <Text>依赖此模组的其他模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP" Language="zh_Hant_HK">
+            <Text>依賴此模組的其他模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP" Language="ja_JP">
+            <Text>このMODに依存している他のMODです。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP" Language="ko_KR">
+            <Text>이 모드에 의존하는 다른 모드입니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP" Language="ru_RU">
+            <Text>Другие моды, которые зависят от этого мода.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_REQUIRED" Language="en_US">
+            <Text>Required DLC</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_REQUIRED" Language="zh_Hans_CN">
+            <Text>依赖 DLC</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_REQUIRED" Language="zh_Hant_HK">
+            <Text>依賴 DLC</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_REQUIRED" Language="ja_JP">
+            <Text>必要なDLC</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_REQUIRED" Language="ko_KR">
+            <Text>필요한 DLC</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_REQUIRED" Language="ru_RU">
+            <Text>Требуемые DLC</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_TOOLTIP" Language="en_US">
+            <Text>Official DLC that this mod requires.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_TOOLTIP" Language="zh_Hans_CN">
+            <Text>此模组依赖的官方 DLC。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_TOOLTIP" Language="zh_Hant_HK">
+            <Text>此模組依賴的官方 DLC。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_TOOLTIP" Language="ja_JP">
+            <Text>このMODが必要とする公式DLCです。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_TOOLTIP" Language="ko_KR">
+            <Text>이 모드에 필요한 공식 DLC입니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_DLC_TOOLTIP" Language="ru_RU">
+            <Text>Официальные DLC, от которых зависит этот мод.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_GROUP" Language="en_US">
+            <Text>Group</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_GROUP" Language="zh_Hans_CN">
+            <Text>分组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_GROUP" Language="zh_Hant_HK">
+            <Text>分組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_GROUP" Language="ja_JP">
+            <Text>グループ</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_GROUP" Language="ko_KR">
+            <Text>그룹</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_GROUP" Language="ru_RU">
+            <Text>Группа</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MOD_ID" Language="en_US">
+            <Text>Mod ID: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MOD_ID" Language="zh_Hans_CN">
+            <Text>模组 ID：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MOD_ID" Language="zh_Hant_HK">
+            <Text>模組 ID：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MOD_ID" Language="ja_JP">
+            <Text>MOD ID: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MOD_ID" Language="ko_KR">
+            <Text>모드 ID:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MOD_ID" Language="ru_RU">
+            <Text>ID мода:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MULTIPLAYER" Language="en_US">
+            <Text>Multiplayer</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MULTIPLAYER" Language="zh_Hans_CN">
+            <Text>支持多人</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MULTIPLAYER" Language="zh_Hant_HK">
+            <Text>支援多人遊戲</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MULTIPLAYER" Language="ja_JP">
+            <Text>マルチプレイヤー</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MULTIPLAYER" Language="ko_KR">
+            <Text>멀티 플레이</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_MULTIPLAYER" Language="ru_RU">
+            <Text>Сетевая игра</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Language="en_US">
+            <Text>Single Player</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Language="zh_Hans_CN">
+            <Text>支持单人</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Language="zh_Hant_HK">
+            <Text>支援單人遊戲</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Language="ja_JP">
+            <Text>シングルプレイヤー</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Language="ko_KR">
+            <Text>싱글 플레이</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Language="ru_RU">
+            <Text>Одиночная игра</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Language="en_US">
+            <Text>Special Thanks</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Language="zh_Hans_CN">
+            <Text>特别鸣谢</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Language="zh_Hant_HK">
+            <Text>特別鳴謝</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Language="ja_JP">
+            <Text>スペシャルサンクス</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Language="ko_KR">
+            <Text>특별한 감사</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Language="ru_RU">
+            <Text>Особая благодарность</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_TITLE" Language="en_US">
+            <Text>Mod Details</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_TITLE" Language="zh_Hans_CN">
+            <Text>模组详情</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_TITLE" Language="zh_Hant_HK">
+            <Text>模組詳細資料</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_TITLE" Language="ja_JP">
+            <Text>MODの詳細</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_TITLE" Language="ko_KR">
+            <Text>모드 상세 정보</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_TITLE" Language="ru_RU">
+            <Text>Сведения о моде</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED" Language="en_US">
+            <Text>Last Updated: {1_Time: datetime}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED" Language="zh_Hans_CN">
+            <Text>更新时间：{1_Time: datetime}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED" Language="zh_Hant_HK">
+            <Text>上次更新：{1_Time: datetime}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED" Language="ja_JP">
+            <Text>前回のアップデート: {1_Time: datetime}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED" Language="ko_KR">
+            <Text>최종 업데이트: {1_Time: datetime}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED" Language="ru_RU">
+            <Text>Обновлено: {1_Time: datetime}</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED_NONE" Language="en_US">
+            <Text>Last Updated: —</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED_NONE" Language="zh_Hans_CN">
+            <Text>更新时间：—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED_NONE" Language="zh_Hant_HK">
+            <Text>上次更新：—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED_NONE" Language="ja_JP">
+            <Text>前回のアップデート: —</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED_NONE" Language="ko_KR">
+            <Text>최종 업데이트: —</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_UPDATED_NONE" Language="ru_RU">
+            <Text>Обновлено: —</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_CASCADE_FAILED" Language="en_US">
+            <Text>Could not disable all dependent mods; no mods were disabled. First failure: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_CASCADE_FAILED" Language="zh_Hans_CN">
+            <Text>无法禁用全部依赖方；未禁用任何模组。首个失败项：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_CASCADE_FAILED" Language="zh_Hant_HK">
+            <Text>無法停用全部依賴方；未停用任何模組。首個失敗項目：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_CASCADE_FAILED" Language="ja_JP">
+            <Text>依存するMODをすべて無効にできませんでした。無効になったMODはありません。最初の失敗: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_CASCADE_FAILED" Language="ko_KR">
+            <Text>의존 모드를 모두 비활성화하지 못했습니다. 비활성화된 모드는 없습니다. 첫 실패 항목: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_CASCADE_FAILED" Language="ru_RU">
+            <Text>Не удалось отключить все зависимые моды; ни один мод не отключен. Первая ошибка: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_DEPS_HIGHLIGHT" Language="en_US">
+            <Text>The following mods depend on this mod:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_DEPS_HIGHLIGHT" Language="zh_Hans_CN">
+            <Text>以下模组依赖此模组：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_DEPS_HIGHLIGHT" Language="zh_Hant_HK">
+            <Text>以下模組依賴此模組：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_DEPS_HIGHLIGHT" Language="ja_JP">
+            <Text>以下のMODがこれに依存しています:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_DEPS_HIGHLIGHT" Language="ko_KR">
+            <Text>다음 모드가 이 모드에 의존합니다:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DISABLE_DEPS_HIGHLIGHT" Language="ru_RU">
+            <Text>Следующие моды зависят от этого мода:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_ANYWAY" Language="en_US">
+            <Text>Enable Anyway</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_ANYWAY" Language="zh_Hans_CN">
+            <Text>仍要启用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_ANYWAY" Language="zh_Hant_HK">
+            <Text>仍要啟用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_ANYWAY" Language="ja_JP">
+            <Text>それでも有効にする</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_ANYWAY" Language="ko_KR">
+            <Text>그래도 활성화</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_ANYWAY" Language="ru_RU">
+            <Text>Все равно включить</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_DEP_SUBSCRIPTION" Language="en_US">
+            <Text>You must subscribe to the required mods before you can enable this one.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_DEP_SUBSCRIPTION" Language="zh_Hans_CN">
+            <Text>需要先订阅依赖模组再启用。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_DEP_SUBSCRIPTION" Language="zh_Hant_HK">
+            <Text>需要先訂閱依賴模組才能啟用。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_DEP_SUBSCRIPTION" Language="ja_JP">
+            <Text>このMODを有効にするには、先に依存するMODのサブスクリプション登録が必要です。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_DEP_SUBSCRIPTION" Language="ko_KR">
+            <Text>이 모드를 활성화하려면 먼저 필요한 모드를 구독해야 합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_DEP_SUBSCRIPTION" Language="ru_RU">
+            <Text>Чтобы включить этот мод, сначала оформите подписку на требуемые моды.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWAWMM_Text_03 -->
+<!-- Author: Awase -->
+<!-- DateCreated: 10/9/2026 3:15:51 PM -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_AWAWMM_SORTBY_SUBSCRIPTION" Language="en_US">
+            <Text>Sort By: Sub ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_SUBSCRIPTION" Language="zh_Hans_CN">
+            <Text>排序方式：订阅 ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_SUBSCRIPTION" Language="zh_Hant_HK">
+            <Text>排序方式：訂閱 ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_SUBSCRIPTION" Language="ja_JP">
+            <Text>並べ替え: 登録ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_SUBSCRIPTION" Language="ko_KR">
+            <Text>정렬 기준: 구독 ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_SUBSCRIPTION" Language="ru_RU">
+            <Text>Сортировать по: подписке</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_UPDATED" Language="en_US">
+            <Text>Sort By: Updated</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_UPDATED" Language="zh_Hans_CN">
+            <Text>排序方式：更新时间</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_UPDATED" Language="zh_Hant_HK">
+            <Text>排序方式：更新時間</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_UPDATED" Language="ja_JP">
+            <Text>並べ替え: 更新</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_UPDATED" Language="ko_KR">
+            <Text>정렬 기준: 업데이트</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_UPDATED" Language="ru_RU">
+            <Text>Сортировать по: обновлению</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ASCENDING" Language="en_US">
+            <Text>Ascending</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ASCENDING" Language="zh_Hans_CN">
+            <Text>升序</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ASCENDING" Language="zh_Hant_HK">
+            <Text>遞增</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ASCENDING" Language="ja_JP">
+            <Text>昇順</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ASCENDING" Language="ko_KR">
+            <Text>오름차순</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ASCENDING" Language="ru_RU">
+            <Text>По возрастанию</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_DESCENDING" Language="en_US">
+            <Text>Descending</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_DESCENDING" Language="zh_Hans_CN">
+            <Text>降序</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_DESCENDING" Language="zh_Hant_HK">
+            <Text>遞減</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_DESCENDING" Language="ja_JP">
+            <Text>降順</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_DESCENDING" Language="ko_KR">
+            <Text>내림차순</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_DESCENDING" Language="ru_RU">
+            <Text>По убыванию</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP" Language="en_US">
+            <Text>The order in which mods are displayed does not affect load order.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP" Language="zh_Hans_CN">
+            <Text>模组的显示顺序不影响加载顺序。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP" Language="zh_Hant_HK">
+            <Text>模組的顯示順序不影響載入順序。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP" Language="ja_JP">
+            <Text>MODの表示順はロード順に影響しません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP" Language="ko_KR">
+            <Text>모드의 표시 순서는 로드 순서에 영향을 주지 않습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP" Language="ru_RU">
+            <Text>Порядок отображения модов не влияет на порядок загрузки.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC" Language="en_US">
+            <Text>Toggle sort direction: Ascending</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC" Language="zh_Hans_CN">
+            <Text>切换排序：升序</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC" Language="zh_Hant_HK">
+            <Text>切換排序方向：遞增</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC" Language="ja_JP">
+            <Text>並べ替え順を切り替え: 昇順</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC" Language="ko_KR">
+            <Text>정렬 방향 전환: 오름차순</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC" Language="ru_RU">
+            <Text>Переключить сортировку: по возрастанию</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_DESC" Language="en_US">
+            <Text>Toggle sort direction: Descending</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_DESC" Language="zh_Hans_CN">
+            <Text>切换排序：降序</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_DESC" Language="zh_Hant_HK">
+            <Text>切換排序方向：遞減</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_DESC" Language="ja_JP">
+            <Text>並べ替え順を切り替え: 降順</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_DESC" Language="ko_KR">
+            <Text>정렬 방향 전환: 내림차순</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_ORDER_TOOLTIP_DESC" Language="ru_RU">
+            <Text>Переключить сортировку: по убыванию</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_SUMMARY_JOIN" Language="en_US">
+            <Text> · </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_SUMMARY_JOIN" Language="zh_Hans_CN">
+            <Text> · </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_SUMMARY_JOIN" Language="zh_Hant_HK">
+            <Text> · </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_SUMMARY_JOIN" Language="ja_JP">
+            <Text>・</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_SUMMARY_JOIN" Language="ko_KR">
+            <Text> · </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORT_SUMMARY_JOIN" Language="ru_RU">
+            <Text> · </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_EMPTY" Language="en_US">
+            <Text>Enter an alias first.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_EMPTY" Language="zh_Hans_CN">
+            <Text>请先输入备注名。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_EMPTY" Language="zh_Hant_HK">
+            <Text>請先輸入備註名。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_EMPTY" Language="ja_JP">
+            <Text>先に別名を入力してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_EMPTY" Language="ko_KR">
+            <Text>먼저 별명을 입력하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_EMPTY" Language="ru_RU">
+            <Text>Сначала введите псевдоним.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_NONE" Language="en_US">
+            <Text>This mod has no alias.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_NONE" Language="zh_Hans_CN">
+            <Text>该模组当前没有备注名。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_NONE" Language="zh_Hant_HK">
+            <Text>此模組目前沒有備註名。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_NONE" Language="ja_JP">
+            <Text>このMODには別名が設定されていません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_NONE" Language="ko_KR">
+            <Text>이 모드에는 별명이 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ALIAS_NONE" Language="ru_RU">
+            <Text>У этого мода нет псевдонима.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_DISABLE_ALL_NONE" Language="en_US">
+            <Text>There are no mods that can be disabled.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_DISABLE_ALL_NONE" Language="zh_Hans_CN">
+            <Text>当前没有可禁用的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_DISABLE_ALL_NONE" Language="zh_Hant_HK">
+            <Text>目前沒有可停用的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_DISABLE_ALL_NONE" Language="ja_JP">
+            <Text>無効にできるMODはありません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_DISABLE_ALL_NONE" Language="ko_KR">
+            <Text>비활성화할 수 있는 모드가 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_DISABLE_ALL_NONE" Language="ru_RU">
+            <Text>Нет модов, которые можно отключить.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ENABLE_ALL_NONE" Language="en_US">
+            <Text>There are no mods that can be enabled.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ENABLE_ALL_NONE" Language="zh_Hans_CN">
+            <Text>当前没有可启用的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ENABLE_ALL_NONE" Language="zh_Hant_HK">
+            <Text>目前沒有可啟用的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ENABLE_ALL_NONE" Language="ja_JP">
+            <Text>有効にできるMODはありません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ENABLE_ALL_NONE" Language="ko_KR">
+            <Text>활성화할 수 있는 모드가 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_ENABLE_ALL_NONE" Language="ru_RU">
+            <Text>Нет модов, которые можно включить.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_FILTER_OVERRIDE" Language="en_US">
+            <Text>An override filter is active, so this filter cannot be used.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_FILTER_OVERRIDE" Language="zh_Hans_CN">
+            <Text>覆盖筛选生效中，无法激活此筛选。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_FILTER_OVERRIDE" Language="zh_Hant_HK">
+            <Text>覆蓋篩選生效中，無法啟用此篩選。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_FILTER_OVERRIDE" Language="ja_JP">
+            <Text>上書きフィルターが有効なため、このフィルターは使用できません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_FILTER_OVERRIDE" Language="ko_KR">
+            <Text>우선 적용 필터가 켜져 있어 이 필터를 사용할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_FILTER_OVERRIDE" Language="ru_RU">
+            <Text>Активен переопределяющий фильтр, поэтому этот фильтр недоступен.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_DELETE_OFFICIAL" Language="en_US">
+            <Text>The default group cannot be deleted.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_DELETE_OFFICIAL" Language="zh_Hans_CN">
+            <Text>无法删除默认群组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_DELETE_OFFICIAL" Language="zh_Hant_HK">
+            <Text>無法刪除預設群組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_DELETE_OFFICIAL" Language="ja_JP">
+            <Text>デフォルトのグループは削除できません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_DELETE_OFFICIAL" Language="ko_KR">
+            <Text>기본 그룹은 삭제할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_DELETE_OFFICIAL" Language="ru_RU">
+            <Text>Группу по умолчанию нельзя удалить.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NAME_EMPTY" Language="en_US">
+            <Text>Enter a group name first.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NAME_EMPTY" Language="zh_Hans_CN">
+            <Text>请先输入分组名称。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NAME_EMPTY" Language="zh_Hant_HK">
+            <Text>請先輸入分組名稱。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NAME_EMPTY" Language="ja_JP">
+            <Text>先にグループ名を入力してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NAME_EMPTY" Language="ko_KR">
+            <Text>먼저 그룹 이름을 입력하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NAME_EMPTY" Language="ru_RU">
+            <Text>Сначала введите название группы.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NONE_SELECTED" Language="en_US">
+            <Text>No group is selected.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NONE_SELECTED" Language="zh_Hans_CN">
+            <Text>当前没有选中任何分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NONE_SELECTED" Language="zh_Hant_HK">
+            <Text>目前沒有選取任何分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NONE_SELECTED" Language="ja_JP">
+            <Text>グループが選択されていません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NONE_SELECTED" Language="ko_KR">
+            <Text>선택된 그룹이 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_NONE_SELECTED" Language="ru_RU">
+            <Text>Группа не выбрана.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_PICK_TARGET" Language="en_US">
+            <Text>Select a specific group first.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_PICK_TARGET" Language="zh_Hans_CN">
+            <Text>需要选择具体分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_PICK_TARGET" Language="zh_Hant_HK">
+            <Text>需要選取具體分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_PICK_TARGET" Language="ja_JP">
+            <Text>具体的なグループを選択してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_PICK_TARGET" Language="ko_KR">
+            <Text>먼저 특정 그룹을 선택하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_GROUP_PICK_TARGET" Language="ru_RU">
+            <Text>Сначала выберите конкретную группу.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_STALE_DATA" Language="en_US">
+            <Text>The data cannot be read right now, so writing is paused.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_STALE_DATA" Language="zh_Hans_CN">
+            <Text>数据无法读取，已暂停写入。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_STALE_DATA" Language="zh_Hant_HK">
+            <Text>資料無法讀取，已暫停寫入。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_STALE_DATA" Language="ja_JP">
+            <Text>データを読み取れないため、書き込みを停止しています。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_STALE_DATA" Language="ko_KR">
+            <Text>현재 데이터를 읽을 수 없어 쓰기가 일시 중지되었습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_STALE_DATA" Language="ru_RU">
+            <Text>Данные сейчас недоступны, запись приостановлена.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MOD_NO_GROUP" Language="en_US">
+            <Text>This mod is not in any group.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MOD_NO_GROUP" Language="zh_Hans_CN">
+            <Text>该模组未加入任何分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MOD_NO_GROUP" Language="zh_Hant_HK">
+            <Text>此模組未加入任何分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MOD_NO_GROUP" Language="ja_JP">
+            <Text>このMODはどのグループにも属していません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MOD_NO_GROUP" Language="ko_KR">
+            <Text>이 모드는 어떤 그룹에도 속해 있지 않습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MOD_NO_GROUP" Language="ru_RU">
+            <Text>Этот мод не входит ни в одну группу.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_DISABLE" Language="en_US">
+            <Text>This is the mod manager itself.[NEWLINE]If you disable it, the manager interface will be gone, and you will need to re-enable this mod from Additional Content in the main menu.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_DISABLE" Language="zh_Hans_CN">
+            <Text>这是模组管理器自身。[NEWLINE]禁用后将不再有管理器界面，需要回到官方模组界面重新启用本模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_DISABLE" Language="zh_Hant_HK">
+            <Text>這是模組管理器本身。[NEWLINE]停用後將不再有管理器介面，需要回到主選單的「額外內容」重新啟用本模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_DISABLE" Language="ja_JP">
+            <Text>これはMODマネージャー本体です。[NEWLINE]無効にするとマネージャーの画面は表示されなくなり、メインメニューの「追加コンテンツ」から再度有効にする必要があります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_DISABLE" Language="ko_KR">
+            <Text>이것은 모드 매니저 자체입니다.[NEWLINE]비활성화하면 매니저 인터페이스가 사라지며, 메인 메뉴의 추가 콘텐츠에서 이 모드를 다시 활성화해야 합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_DISABLE" Language="ru_RU">
+            <Text>Это сам менеджер модов.[NEWLINE]Если отключить его, интерфейс менеджера исчезнет, и мод придется снова включить в разделе «Дополнительный контент» главного меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_UNSUBSCRIBE" Language="en_US">
+            <Text>This is the mod manager itself.[NEWLINE]Unsubscribing deletes the manager, and you will no longer be able to use it.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_UNSUBSCRIBE" Language="zh_Hans_CN">
+            <Text>这是模组管理器自身。[NEWLINE]退订将会删除管理器，您将无法再使用本模组管理器。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_UNSUBSCRIBE" Language="zh_Hant_HK">
+            <Text>這是模組管理器本身。[NEWLINE]退訂將會刪除管理器，您將無法再使用本模組管理器。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_UNSUBSCRIBE" Language="ja_JP">
+            <Text>これはMODマネージャー本体です。[NEWLINE]登録解除するとマネージャーが削除され、このMODマネージャーは使用できなくなります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_UNSUBSCRIBE" Language="ko_KR">
+            <Text>이것은 모드 매니저 자체입니다.[NEWLINE]구독을 취소하면 매니저가 삭제되어 더 이상 사용할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_FRONTEND_UNSUBSCRIBE" Language="ru_RU">
+            <Text>Это сам менеджер модов.[NEWLINE]При отмене подписки менеджер будет удален, и пользоваться им больше не получится.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_UNSUBSCRIBED" Language="en_US">
+            <Text>This mod is already unsubscribed.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_UNSUBSCRIBED" Language="zh_Hans_CN">
+            <Text>该模组已退订，无法再次取消订阅。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_UNSUBSCRIBED" Language="zh_Hant_HK">
+            <Text>此模組已退訂，無法再次退訂。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_UNSUBSCRIBED" Language="ja_JP">
+            <Text>このMODはすでに登録解除されています。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_UNSUBSCRIBED" Language="ko_KR">
+            <Text>이 모드는 이미 구독이 취소되었습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_UNSUBSCRIBED" Language="ru_RU">
+            <Text>Подписка на этот мод уже отменена.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_ENABLE_FAILED" Language="en_US">
+            <Text>Cannot Enable</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_ENABLE_FAILED" Language="zh_Hans_CN">
+            <Text>无法启用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_ENABLE_FAILED" Language="zh_Hant_HK">
+            <Text>無法啟用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_ENABLE_FAILED" Language="ja_JP">
+            <Text>有効にできません</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_ENABLE_FAILED" Language="ko_KR">
+            <Text>활성화할 수 없음</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_ENABLE_FAILED" Language="ru_RU">
+            <Text>Невозможно включить</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_INCOMPATIBLE" Language="en_US">
+            <Text>Compatibility Warning</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_INCOMPATIBLE" Language="zh_Hans_CN">
+            <Text>兼容性警告</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_INCOMPATIBLE" Language="zh_Hant_HK">
+            <Text>相容性警告</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_INCOMPATIBLE" Language="ja_JP">
+            <Text>互換性の警告</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_INCOMPATIBLE" Language="ko_KR">
+            <Text>호환성 경고</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_INCOMPATIBLE" Language="ru_RU">
+            <Text>Предупреждение о совместимости</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_NOT_SUBSCRIBED" Language="en_US">
+            <Text>Missing Mods Not Subscribed</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_NOT_SUBSCRIBED" Language="zh_Hans_CN">
+            <Text>尚未订阅缺失模组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_NOT_SUBSCRIBED" Language="zh_Hant_HK">
+            <Text>尚未訂閱缺少的模組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_NOT_SUBSCRIBED" Language="ja_JP">
+            <Text>未登録のMODがあります</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_NOT_SUBSCRIBED" Language="ko_KR">
+            <Text>구독하지 않은 누락 모드</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_NOT_SUBSCRIBED" Language="ru_RU">
+            <Text>Нет подписки на отсутствующие моды</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_SUBTITLE" Language="en_US">
+            <Text>A powerful, modern mod manager that makes managing mods easier in the main menu and in-game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_SUBTITLE" Language="zh_Hans_CN">
+            <Text>强大的现代化模组管理器，让您在主菜单和对局内更轻松地管理模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_SUBTITLE" Language="zh_Hant_HK">
+            <Text>強大的現代化模組管理器，讓您在主選單與對局內更輕鬆地管理模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_SUBTITLE" Language="ja_JP">
+            <Text>パワフルでモダンなMODマネージャー。メインメニューでもゲーム中でも、MODの管理がもっと快適になります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_SUBTITLE" Language="ko_KR">
+            <Text>메인 메뉴와 게임 안에서 모드를 더 쉽게 관리할 수 있는 강력하고 현대적인 모드 매니저입니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_SUBTITLE" Language="ru_RU">
+            <Text>Мощный современный менеджер модов, который упрощает работу с модами в главном меню и в игре.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_TITLE" Language="en_US">
+            <Text>AWAW Mod Manager</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_TITLE" Language="zh_Hans_CN">
+            <Text>AWAW 模组管理器</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_TITLE" Language="zh_Hant_HK">
+            <Text>AWAW 模組管理器</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_TITLE" Language="ja_JP">
+            <Text>AWAW MODマネージャー</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_TITLE" Language="ko_KR">
+            <Text>AWAW 모드 매니저</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UI_TITLE" Language="ru_RU">
+            <Text>AWAW Менеджер модов</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UNSUBSCRIBE_BREAKS_DEPENDENTS" Language="en_US">
+            <Text>After unsubscribing, the following mods can no longer be enabled:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UNSUBSCRIBE_BREAKS_DEPENDENTS" Language="zh_Hans_CN">
+            <Text>退订后，以下模组将无法启用：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UNSUBSCRIBE_BREAKS_DEPENDENTS" Language="zh_Hant_HK">
+            <Text>退訂後，以下模組將無法啟用：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UNSUBSCRIBE_BREAKS_DEPENDENTS" Language="ja_JP">
+            <Text>登録解除すると、以下のMODは有効にできなくなります:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UNSUBSCRIBE_BREAKS_DEPENDENTS" Language="ko_KR">
+            <Text>구독을 취소하면 다음 모드를 더 이상 활성화할 수 없습니다:</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_UNSUBSCRIBE_BREAKS_DEPENDENTS" Language="ru_RU">
+            <Text>После отмены подписки следующие моды нельзя будет включить:</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_DISABLE_ALL_AWAWMM_TT" Language="en_US">
+            <Text>Disable all mods currently shown</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_DISABLE_ALL_AWAWMM_TT" Language="zh_Hans_CN">
+            <Text>禁用当前显示的所有模组</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_DISABLE_ALL_AWAWMM_TT" Language="zh_Hant_HK">
+            <Text>停用目前顯示的所有模組</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_DISABLE_ALL_AWAWMM_TT" Language="ja_JP">
+            <Text>現在表示中のすべてのMODを無効にします</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_DISABLE_ALL_AWAWMM_TT" Language="ko_KR">
+            <Text>현재 표시된 모든 모드를 비활성화합니다</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_DISABLE_ALL_AWAWMM_TT" Language="ru_RU">
+            <Text>Отключить все показанные моды</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_ENABLE_ALL_AWAWMM_TT" Language="en_US">
+            <Text>Enable all mods currently shown</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_ENABLE_ALL_AWAWMM_TT" Language="zh_Hans_CN">
+            <Text>启用当前显示的所有模组</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_ENABLE_ALL_AWAWMM_TT" Language="zh_Hant_HK">
+            <Text>啟用目前顯示的所有模組</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_ENABLE_ALL_AWAWMM_TT" Language="ja_JP">
+            <Text>現在表示中のすべてのMODを有効にします</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_ENABLE_ALL_AWAWMM_TT" Language="ko_KR">
+            <Text>현재 표시된 모든 모드를 활성화합니다</Text>
+        </Replace>
+        <Replace Tag="LOC_MODS_ENABLE_ALL_AWAWMM_TT" Language="ru_RU">
+            <Text>Включить все показанные моды</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

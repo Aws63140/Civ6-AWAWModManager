@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWAWMM_Text_IG -->
+<!-- Author: Awase -->
+<!-- DateCreated: 10/13/2026 3:50:31 AM -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_AWAWMM_DETAIL_INGAME_ACTIVE" Language="en_US">
+            <Text>Mod enabled in this game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_INGAME_ACTIVE" Language="zh_Hans_CN">
+            <Text>当前对局正启用此模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_INGAME_ACTIVE" Language="zh_Hant_HK">
+            <Text>當前對局正啟用此模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_INGAME_ACTIVE" Language="ja_JP">
+            <Text>このMODはゲーム中で有効。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_INGAME_ACTIVE" Language="ko_KR">
+            <Text>이 게임에서 활성화된 모드.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_DETAIL_INGAME_ACTIVE" Language="ru_RU">
+            <Text>Мод включен в этой игре.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_DETAIL_RESTART_TOOLTIP" Language="en_US">
+            <Text>Changes take effect only after the save is reloaded.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_DETAIL_RESTART_TOOLTIP" Language="zh_Hans_CN">
+            <Text>改动仅在重载存档后生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_DETAIL_RESTART_TOOLTIP" Language="zh_Hant_HK">
+            <Text>變更僅在重載存檔後生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_DETAIL_RESTART_TOOLTIP" Language="ja_JP">
+            <Text>変更はセーブデータを再読み込みした後に反映されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_DETAIL_RESTART_TOOLTIP" Language="ko_KR">
+            <Text>변경 사항은 저장 파일을 다시 불러온 후에만 적용됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_DETAIL_RESTART_TOOLTIP" Language="ru_RU">
+            <Text>Изменения вступят в силу только после повторной загрузки сохранения.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE" Language="en_US">
+            <Text>Deleting a mod group loses the list of enabled mods that it stores.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE" Language="zh_Hans_CN">
+            <Text>删除模组群组会丢失它保存的已启用模组列表。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE" Language="zh_Hant_HK">
+            <Text>刪除模組群組會遺失它儲存的已啟用模組清單。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE" Language="ja_JP">
+            <Text>MODグループを削除すると、保存されている有効なMODのリストが失われます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE" Language="ko_KR">
+            <Text>모드 그룹을 삭제하면 그 그룹이 저장한 활성화된 모드 목록이 사라집니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE" Language="ru_RU">
+            <Text>При удалении группы модов будет потерян сохраненный в ней список включенных модов.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE_ASK" Language="en_US">
+            <Text>Delete anyway?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE_ASK" Language="zh_Hans_CN">
+            <Text>确定删除吗？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE_ASK" Language="zh_Hant_HK">
+            <Text>確定刪除嗎？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE_ASK" Language="ja_JP">
+            <Text>削除しますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE_ASK" Language="ko_KR">
+            <Text>그래도 삭제하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_DELETE_ASK" Language="ru_RU">
+            <Text>Все равно удалить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_ASK" Language="en_US">
+            <Text>Switch anyway?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_ASK" Language="zh_Hans_CN">
+            <Text>确定切换吗？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_ASK" Language="zh_Hant_HK">
+            <Text>確定切換嗎？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_ASK" Language="ja_JP">
+            <Text>切り替えますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_ASK" Language="ko_KR">
+            <Text>그래도 전환하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_ASK" Language="ru_RU">
+            <Text>Все равно переключить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_BODY" Language="en_US">
+            <Text>Switching mod groups changes which mods are enabled, and the change takes effect only after the save is reloaded.[NEWLINE]For mods that affect saved games, the change applies only when you start a new game from the main menu.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_BODY" Language="zh_Hans_CN">
+            <Text>切换模组群组会更改模组的启用状态，改动仅在重载存档后生效。[NEWLINE]模组影响存档时，改动仅在主菜单创建新游戏时生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_BODY" Language="zh_Hant_HK">
+            <Text>切換模組群組會變更模組的啟用狀態，變更僅在重載存檔後生效。[NEWLINE]模組影響存檔時，變更僅在主選單建立新遊戲時生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_BODY" Language="ja_JP">
+            <Text>MODグループを切り替えるとMODの有効状態が変わります。変更はセーブデータを再読み込みした後に反映されます。[NEWLINE]セーブデータに影響するMODの変更は、メインメニューから新しいゲームを開始したときにのみ適用されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_BODY" Language="ko_KR">
+            <Text>모드 그룹을 전환하면 활성화되는 모드가 바뀌며, 변경 사항은 저장 파일을 다시 불러온 후에만 적용됩니다.[NEWLINE]저장된 게임에 영향을 주는 모드의 변경 사항은 메인 메뉴에서 새 게임을 시작할 때만 적용됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_GROUP_SWITCH_BODY" Language="ru_RU">
+            <Text>При смене группы модов меняется набор включенных модов, и это вступит в силу только после повторной загрузки сохранения.[NEWLINE]Для модов, влияющих на сохранения, изменение применяется только при начале новой игры из главного меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_NO_TOGGLE_HINT" Language="en_US">
+            <Text>[NEWLINE]Mods cannot be enabled or disabled during a game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_NO_TOGGLE_HINT" Language="zh_Hans_CN">
+            <Text>[NEWLINE]无法在对局内启用 / 禁用模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_NO_TOGGLE_HINT" Language="zh_Hant_HK">
+            <Text>[NEWLINE]無法在對局內啟用 / 停用模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_NO_TOGGLE_HINT" Language="ja_JP">
+            <Text>[NEWLINE]ゲーム中はMODを有効 / 無効にできません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_NO_TOGGLE_HINT" Language="ko_KR">
+            <Text>[NEWLINE]게임 중에는 모드를 활성화하거나 비활성화할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_NO_TOGGLE_HINT" Language="ru_RU">
+            <Text>[NEWLINE]Во время игры нельзя включать или отключать моды.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_RESTART_HINT" Language="en_US">
+            <Text>[NEWLINE]Changes take effect only after the save is reloaded.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_RESTART_HINT" Language="zh_Hans_CN">
+            <Text>[NEWLINE]改动仅在重载存档后生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_RESTART_HINT" Language="zh_Hant_HK">
+            <Text>[NEWLINE]變更僅在重載存檔後生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_RESTART_HINT" Language="ja_JP">
+            <Text>[NEWLINE]変更はセーブデータを再読み込みした後に反映されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_RESTART_HINT" Language="ko_KR">
+            <Text>[NEWLINE]변경 사항은 저장 파일을 다시 불러온 후에만 적용됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_RESTART_HINT" Language="ru_RU">
+            <Text>[NEWLINE]Изменения вступят в силу только после повторной загрузки сохранения.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_DISABLE" Language="en_US">
+            <Text>This mod affects saved games.[NEWLINE]Disabling it during a game will not deactivate the mod. The change applies only when you start a new game from the main menu.[NEWLINE]Disable anyway?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_DISABLE" Language="zh_Hans_CN">
+            <Text>此模组影响存档。[NEWLINE]对局内禁用此模组无法使模组失效。此次禁用仅在主菜单创建新游戏时生效。[NEWLINE]确定禁用吗？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_DISABLE" Language="zh_Hant_HK">
+            <Text>此模組影響存檔。[NEWLINE]在對局內停用此模組無法使其失效。此次停用僅在主選單建立新遊戲時生效。[NEWLINE]確定停用嗎？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_DISABLE" Language="ja_JP">
+            <Text>このMODはセーブデータに影響します。[NEWLINE]ゲーム中に無効にしても、このMODはすぐには無効になりません。この変更はメインメニューから新しいゲームを開始したときにのみ適用されます。[NEWLINE]無効にしますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_DISABLE" Language="ko_KR">
+            <Text>이 모드는 저장된 게임에 영향을 줍니다.[NEWLINE]게임 중에 비활성화해도 모드는 그대로 유지됩니다. 변경 사항은 메인 메뉴에서 새 게임을 시작할 때만 적용됩니다.[NEWLINE]그래도 비활성화하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_DISABLE" Language="ru_RU">
+            <Text>Этот мод влияет на сохранения.[NEWLINE]Если отключить мод во время игры, он продолжит работать. Изменение вступит в силу только при начале новой игры из главного меню.[NEWLINE]Все равно отключить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_ENABLE" Language="en_US">
+            <Text>This mod affects saved games.[NEWLINE]Enabling it during a game will not activate the mod. The change applies only when you start a new game from the main menu.[NEWLINE]Enable anyway?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_ENABLE" Language="zh_Hans_CN">
+            <Text>此模组影响存档。[NEWLINE]对局内启用此模组无法使模组生效。此次启用仅在主菜单创建新游戏时生效。[NEWLINE]确定启用吗？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_ENABLE" Language="zh_Hant_HK">
+            <Text>此模組影響存檔。[NEWLINE]在對局內啟用此模組無法使其生效。此次啟用僅在主選單建立新遊戲時生效。[NEWLINE]確定啟用嗎？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_ENABLE" Language="ja_JP">
+            <Text>このMODはセーブデータに影響します。[NEWLINE]ゲーム中に有効にしても、このMODはすぐには有効になりません。この変更はメインメニューから新しいゲームを開始したときにのみ適用されます。[NEWLINE]有効にしますか？</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_ENABLE" Language="ko_KR">
+            <Text>이 모드는 저장된 게임에 영향을 줍니다.[NEWLINE]게임 중에 활성화해도 모드가 적용되지 않습니다. 변경 사항은 메인 메뉴에서 새 게임을 시작할 때만 적용됩니다.[NEWLINE]그래도 활성화하시겠습니까?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_SAVE_AFFECTING_ENABLE" Language="ru_RU">
+            <Text>Этот мод влияет на сохранения.[NEWLINE]Если включить мод во время игры, он не начнет работать. Изменение вступит в силу только при начале новой игры из главного меню.[NEWLINE]Все равно включить?</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_TOGGLE_NOTICE" Language="en_US">
+            <Text>Enabling or disabling mods takes effect only after the save is reloaded. For mods that affect saved games, the change applies only when you start a new game from the main menu.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_TOGGLE_NOTICE" Language="zh_Hans_CN">
+            <Text>模组的启用 / 禁用仅在重载存档后生效。模组影响存档时，改动仅在主菜单创建新游戏时生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_TOGGLE_NOTICE" Language="zh_Hant_HK">
+            <Text>模組的啟用 / 停用僅在重載存檔後生效。模組影響存檔時，變更僅在主選單建立新遊戲時生效。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_TOGGLE_NOTICE" Language="ja_JP">
+            <Text>MODの有効 / 無効は、セーブデータを再読み込みした後に反映されます。セーブデータに影響するMODの変更は、メインメニューから新しいゲームを開始したときにのみ適用されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_TOGGLE_NOTICE" Language="ko_KR">
+            <Text>모드를 활성화하거나 비활성화한 변경 사항은 저장 파일을 다시 불러온 후에만 적용됩니다. 저장된 게임에 영향을 주는 모드의 변경 사항은 메인 메뉴에서 새 게임을 시작할 때만 적용됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_INGAME_TOGGLE_NOTICE" Language="ru_RU">
+            <Text>Включение и отключение модов вступают в силу только после повторной загрузки сохранения. Для модов, влияющих на сохранения, изменение применяется только при начале новой игры из главного меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_CANNOT_TOGGLE" Language="en_US">
+            <Text>Mods cannot be enabled or disabled while a game is in progress. Return to the main menu to change them.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_CANNOT_TOGGLE" Language="zh_Hans_CN">
+            <Text>对局内无法启用 / 禁用模组，请回到主菜单操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_CANNOT_TOGGLE" Language="zh_Hant_HK">
+            <Text>對局內無法啟用 / 停用模組，請回到主選單操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_CANNOT_TOGGLE" Language="ja_JP">
+            <Text>ゲーム進行中はMODを有効 / 無効にできません。メインメニューに戻って操作してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_CANNOT_TOGGLE" Language="ko_KR">
+            <Text>게임 진행 중에는 모드를 활성화하거나 비활성화할 수 없습니다. 메인 메뉴로 돌아가서 변경하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_CANNOT_TOGGLE" Language="ru_RU">
+            <Text>Во время игры нельзя включать и отключать моды. Вернитесь в главное меню, чтобы изменить их.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_ROW_SELF_NO_DISABLE" Language="en_US">
+            <Text>[NEWLINE]The mod manager itself cannot be disabled during a game. Return to the main menu to do so.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_ROW_SELF_NO_DISABLE" Language="zh_Hans_CN">
+            <Text>[NEWLINE]对局内不允许禁用本模组管理器，请返回主菜单操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_ROW_SELF_NO_DISABLE" Language="zh_Hant_HK">
+            <Text>[NEWLINE]對局內不允許停用本模組管理器，請返回主選單操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_ROW_SELF_NO_DISABLE" Language="ja_JP">
+            <Text>[NEWLINE]ゲーム中はMODマネージャー本体を無効にできません。メインメニューに戻って操作してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_ROW_SELF_NO_DISABLE" Language="ko_KR">
+            <Text>[NEWLINE]게임 중에는 모드 매니저 자체를 비활성화할 수 없습니다. 메인 메뉴로 돌아가서 비활성화하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_ROW_SELF_NO_DISABLE" Language="ru_RU">
+            <Text>[NEWLINE]Во время игры нельзя отключить сам менеджер модов. Вернитесь в главное меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_SELF_UNSUB" Language="en_US">
+            <Text>The mod manager itself cannot be unsubscribed during a game. Return to the main menu to do so.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_SELF_UNSUB" Language="zh_Hans_CN">
+            <Text>对局内不允许退订本模组管理器，请返回主菜单操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_SELF_UNSUB" Language="zh_Hant_HK">
+            <Text>對局內不允許退訂本模組管理器，請返回主選單操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_SELF_UNSUB" Language="ja_JP">
+            <Text>ゲーム中はMODマネージャー本体の登録を解除できません。メインメニューに戻って操作してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_SELF_UNSUB" Language="ko_KR">
+            <Text>게임 중에는 모드 매니저 자체의 구독을 취소할 수 없습니다. 메인 메뉴로 돌아가서 구독을 취소하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_SELF_UNSUB" Language="ru_RU">
+            <Text>Во время игры нельзя отменить подписку на сам менеджер модов. Вернитесь в главное меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="en_US">
+            <Text>Cannot unsubscribe. Other mods that affect saved games depend on this mod and are in use in the current game. Unsubscribing would make this game impossible to load again. Return to the main menu to unsubscribe.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="zh_Hans_CN">
+            <Text>无法退订。其他影响存档的模组依赖此模组，且当前对局正在使用。退订将导致无法再进入此对局。请返回主菜单退订。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="zh_Hant_HK">
+            <Text>無法退訂。其他影響存檔的模組依賴此模組，且當前對局正在使用。退訂將導致無法再進入此遊戲。請返回主選單退訂。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="ja_JP">
+            <Text>登録解除できません。セーブデータに影響する他のMODがこのMODに依存しており、現在のゲームで使用されています。登録解除すると、このゲームを再度読み込めなくなります。登録解除するにはメインメニューに戻ってください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="ko_KR">
+            <Text>구독을 취소할 수 없습니다. 저장된 게임에 영향을 주는 다른 모드가 이 모드에 의존하며 현재 게임에서 사용 중입니다. 구독을 취소하면 이 게임을 다시 불러올 수 없습니다. 구독을 취소하려면 메인 메뉴로 돌아가세요.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="ru_RU">
+            <Text>Нельзя отменить подписку. От этого мода зависят другие моды, влияющие на сохранения, и они используются в текущей игре; после отмены подписки эту игру нельзя будет загрузить. Чтобы отменить подписку, вернитесь в главное меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_SAVE_ACTIVE" Language="en_US">
+            <Text>Cannot unsubscribe. This mod affects saved games and is enabled in the current game. Unsubscribing would make this game impossible to load again. Return to the main menu to unsubscribe.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_SAVE_ACTIVE" Language="zh_Hans_CN">
+            <Text>无法退订。此模组影响存档，且当前对局正在启用。退订将导致无法再进入此对局。请返回主菜单退订。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_SAVE_ACTIVE" Language="zh_Hant_HK">
+            <Text>無法退訂。此模組影響存檔，且當前對局正在啟用。退訂將導致無法再進入此遊戲。請返回主選單退訂。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_SAVE_ACTIVE" Language="ja_JP">
+            <Text>登録解除できません。このMODはセーブデータに影響し、現在のゲームで有効になっています。登録解除すると、このゲームを再度読み込めなくなります。登録解除するにはメインメニューに戻ってください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_SAVE_ACTIVE" Language="ko_KR">
+            <Text>구독을 취소할 수 없습니다. 이 모드는 저장된 게임에 영향을 주며 현재 게임에서 활성화되어 있습니다. 구독을 취소하면 이 게임을 다시 불러올 수 없습니다. 구독을 취소하려면 메인 메뉴로 돌아가세요.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_INGAME_UNSUB_SAVE_ACTIVE" Language="ru_RU">
+            <Text>Нельзя отменить подписку. Мод влияет на сохранения и включен в текущей игре; после отмены подписки эту игру нельзя будет загрузить. Чтобы отменить подписку, вернитесь в главное меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_CANNOT_TOGGLE" Language="en_US">
+            <Text>Mods cannot be enabled or disabled in a multiplayer game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_CANNOT_TOGGLE" Language="zh_Hans_CN">
+            <Text>联机对局内不能更改模组的启用状态。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_CANNOT_TOGGLE" Language="zh_Hant_HK">
+            <Text>多人對局內不能變更模組的啟用狀態。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_CANNOT_TOGGLE" Language="ja_JP">
+            <Text>マルチプレイヤーゲームではMODの有効 / 無効を変更できません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_CANNOT_TOGGLE" Language="ko_KR">
+            <Text>멀티 플레이 게임에서는 모드를 활성화하거나 비활성화할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_CANNOT_TOGGLE" Language="ru_RU">
+            <Text>В сетевой игре нельзя включать и отключать моды.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_ROW_CANNOT_TOGGLE" Language="en_US">
+            <Text>[NEWLINE]Mods cannot be enabled or disabled in a multiplayer game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_ROW_CANNOT_TOGGLE" Language="zh_Hans_CN">
+            <Text>[NEWLINE]联机对局内不能更改模组的启用状态。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_ROW_CANNOT_TOGGLE" Language="zh_Hant_HK">
+            <Text>[NEWLINE]多人對局內不能變更模組的啟用狀態。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_ROW_CANNOT_TOGGLE" Language="ja_JP">
+            <Text>[NEWLINE]マルチプレイヤーゲームではMODの有効 / 無効を変更できません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_ROW_CANNOT_TOGGLE" Language="ko_KR">
+            <Text>[NEWLINE]멀티 플레이 게임에서는 모드를 활성화하거나 비활성화할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_ROW_CANNOT_TOGGLE" Language="ru_RU">
+            <Text>[NEWLINE]В сетевой игре нельзя включать и отключать моды.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="en_US">
+            <Text>Cannot unsubscribe. Unsubscribing this mod would disable other mods.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="zh_Hans_CN">
+            <Text>无法退订。退订此模组将导致其他模组被禁用。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="zh_Hant_HK">
+            <Text>無法退訂。退訂此模組將導致其他模組被停用。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="ja_JP">
+            <Text>登録解除できません。このMODの登録を解除すると、他のMODが無効になります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="ko_KR">
+            <Text>구독을 취소할 수 없습니다. 이 모드의 구독을 취소하면 다른 모드가 비활성화됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_DEPENDENTS_SAVE_ACTIVE" Language="ru_RU">
+            <Text>Нельзя отменить подписку: это отключит другие моды.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_SAVE_ACTIVE" Language="en_US">
+            <Text>Cannot unsubscribe. Enabled mods cannot be unsubscribed in a multiplayer game.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_SAVE_ACTIVE" Language="zh_Hans_CN">
+            <Text>无法退订。联机对局内不能退订正在启用的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_SAVE_ACTIVE" Language="zh_Hant_HK">
+            <Text>無法退訂。多人對局內不能退訂正在啟用的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_SAVE_ACTIVE" Language="ja_JP">
+            <Text>登録解除できません。マルチプレイヤーゲームでは有効なMODの登録を解除できません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_SAVE_ACTIVE" Language="ko_KR">
+            <Text>구독을 취소할 수 없습니다. 멀티 플레이 게임에서는 활성화된 모드의 구독을 취소할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_MP_UNSUB_SAVE_ACTIVE" Language="ru_RU">
+            <Text>Нельзя отменить подписку: в сетевой игре это запрещено для включенных модов.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_MOD_NO_DISABLE" Language="en_US">
+            <Text>The mod manager itself cannot be disabled during a game. Return to the main menu to do so.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_MOD_NO_DISABLE" Language="zh_Hans_CN">
+            <Text>对局内不允许禁用本模组管理器，请返回主菜单操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_MOD_NO_DISABLE" Language="zh_Hant_HK">
+            <Text>對局內不允許停用本模組管理器，請返回主選單操作。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_MOD_NO_DISABLE" Language="ja_JP">
+            <Text>ゲーム中はMODマネージャー本体を無効にできません。メインメニューに戻って操作してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_MOD_NO_DISABLE" Language="ko_KR">
+            <Text>게임 중에는 모드 매니저 자체를 비활성화할 수 없습니다. 메인 메뉴로 돌아가서 비활성화하십시오.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TIP_SELF_MOD_NO_DISABLE" Language="ru_RU">
+            <Text>Во время игры нельзя отключить сам менеджер модов. Вернитесь в главное меню.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_CANNOT_DISABLE" Language="en_US">
+            <Text>Cannot Disable</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_CANNOT_DISABLE" Language="zh_Hans_CN">
+            <Text>无法禁用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_CANNOT_DISABLE" Language="zh_Hant_HK">
+            <Text>無法停用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_CANNOT_DISABLE" Language="ja_JP">
+            <Text>無効にできません</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_CANNOT_DISABLE" Language="ko_KR">
+            <Text>비활성화할 수 없음</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_CANNOT_DISABLE" Language="ru_RU">
+            <Text>Невозможно отключить</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_DELETE" Language="en_US">
+            <Text>Confirm Mod Group Deletion</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_DELETE" Language="zh_Hans_CN">
+            <Text>确认删除模组群组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_DELETE" Language="zh_Hant_HK">
+            <Text>確認刪除模組群組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_DELETE" Language="ja_JP">
+            <Text>MODグループ削除の確認</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_DELETE" Language="ko_KR">
+            <Text>모드 그룹 삭제 확인</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_DELETE" Language="ru_RU">
+            <Text>Подтверждение удаления группы модов</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_SWITCH" Language="en_US">
+            <Text>Confirm Mod Group Switch</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_SWITCH" Language="zh_Hans_CN">
+            <Text>确认切换模组群组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_SWITCH" Language="zh_Hant_HK">
+            <Text>確認切換模組群組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_SWITCH" Language="ja_JP">
+            <Text>MODグループ切り替えの確認</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_SWITCH" Language="ko_KR">
+            <Text>모드 그룹 전환 확인</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_GROUP_SWITCH" Language="ru_RU">
+            <Text>Подтверждение смены группы модов</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_SAVE_AFFECTING" Language="en_US">
+            <Text>Mod Affects Saved Games</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_SAVE_AFFECTING" Language="zh_Hans_CN">
+            <Text>模组影响存档</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_SAVE_AFFECTING" Language="zh_Hant_HK">
+            <Text>模組影響存檔</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_SAVE_AFFECTING" Language="ja_JP">
+            <Text>セーブデータに影響するMOD</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_SAVE_AFFECTING" Language="ko_KR">
+            <Text>저장된 게임에 영향을 주는 모드</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_TITLE_SAVE_AFFECTING" Language="ru_RU">
+            <Text>Мод влияет на сохранения</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

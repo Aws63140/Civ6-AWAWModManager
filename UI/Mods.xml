@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mods -->
+<!-- Author: Awase -->
+<!-- DateCreated: 10/4/2026 5:40:21 PM -->
+<Context ColorSet="BodyTextCool" Style="FontNormal22" FontEffect="Stroke">
+	<Grid ID="MainGrid" Size="1350,748" Anchor="C,C" TutorialActive="1"
+		  Texture="AWAWMM_Panel" SliceCorner="28,28" SliceSize="1,1" SliceTextureSize="128,128">
+		<Container ID="MainWindow" Size="parent,parent" Anchor="C,C">
+			<Grid ID="LogoContainer" Size="parent-52,48" Anchor="L,T" Offset="26,4">
+				<Box ID="AWAWMMHeaderRule" Anchor="L,B" Offset="0,0" Size="parent,1" Color="150,190,150,150"/>
+				<Image ID="AWAWMMLogo" Anchor="L,C" Offset="11,0" Size="39,36" Texture="AWAWMM_Logo"/>
+				<Label ID="AWAWMMTitle" Anchor="L,C" Offset="62,-8" String="LOC_AWAWMM_UI_TITLE"
+					   Style="FontNormalBold16" FontStyle="glow" Color0="212,175,55,255" Color1="0,0,0,200"/>
+				<Label ID="AWAWMMSubtitle" Anchor="L,C" Offset="62,12" String="LOC_AWAWMM_UI_SUBTITLE"
+					   Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+				<GridButton ID="CloseButton" Anchor="R,C" Size="150,38" Offset="16,-1" String="LOC_MENU_BACK"
+							ToolTip="LOC_AWAWMM_BACK_TO_MENU_TOOLTIP"
+							Texture="AWAWMM_Button" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+							Style="FontNormal16" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150">
+					<Image Anchor="L,C" Offset="14,0" Size="20,20" Texture="AWAWMM_Icons" TextureOffset="96,64"/>
+				</GridButton>
+					<GridButton ID="AWAWMMDeleteConfigButton" Anchor="R,C" Size="150,38" Offset="182,0"
+								String="LOC_AWAWMM_DELETE_CONFIG" ToolTip="LOC_AWAWMM_DELETE_CONFIG_TOOLTIP"
+								Texture="AWAWMM_ButtonDanger" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+								Style="FontNormal16" FontStyle="glow" Color0="255,240,236,255" Color1="0,0,0,200"/>
+			</Grid>
+			<Container ID="InstalledTabPanel" Size="parent,parent-50" Anchor="L,T" Offset="0,50">
+				<Container ID="AWAWMMToolbar" Size="parent-24,30" Anchor="L,T" Offset="12,8">
+					<PullDown ID="ModGroupPullDown" Anchor="L,T" Size="188,30" Offset="0,0" ScrollThreshold="110" AutoSizePopUp="1" SpaceForScroll="0">
+						<ButtonData>
+							<GridButton Size="188,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool"
+										TextAnchor="L,C" TextOffset="12,0" ToolTip="LOC_AWAWMM_MODGROUP_TOOLTIP">
+								<GridData Texture="AWAWMM_PulldownButton" StateOffsetIncrement="0,30" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30"/>
+								<Image Anchor="R,C" Offset="8,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32"/>
+							</GridButton>
+						</ButtonData>
+						<GridData Offset="0,30" Texture="AWAWMM_Popup" InnerPadding="3,6" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="64,64"/>
+						<ScrollPanelData Anchor="C,C" Vertical="1" Size="parent,parent" AutoScrollBar="1">
+							<ScrollBar Anchor="R,C" AnchorSide="O,I" Size="10,14" Vertical="1"
+									   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+								<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+							</ScrollBar>
+						</ScrollPanelData>
+						<StackData StackGrowth="Bottom" Anchor="C,T"/>
+						<InstanceData Name="InstanceOne">
+							<GridButton ID="Button" Anchor="L,T" Size="184,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool"
+										Texture="AWAWMM_PopupRow" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"/>
+						</InstanceData>
+					</PullDown>
+					<GridButton ID="CreateModGroup" Anchor="L,T" Offset="200,2" Size="26,26" String="LOC_MODS_GROUP_ADD_NAME" ToolTip="LOC_MODS_GROUP_ADD_DESCRIPTION"
+								Texture="AWAWMM_IconButton" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="26,26" StateOffsetIncrement="0,26"
+								Style="FontNormal14" FontStyle="Stroke" ColorSet="ButtonCS"/>
+					<GridButton ID="DeleteModGroup" Anchor="L,T" Offset="238,2" Size="26,26" String="LOC_MODS_GROUP_DELETE_NAME" ToolTip="LOC_MODS_GROUP_DELETE_DESCRIPTION"
+								Texture="AWAWMM_IconButton" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="26,26" StateOffsetIncrement="0,26"
+								Style="FontNormal14" FontStyle="Stroke" ColorSet="ButtonCS"/>
+					<PullDown ID="AWAWMMGroupFilterPullDown" Anchor="L,T" Size="188,30" Offset="276,0" ScrollThreshold="110" AutoSizePopUp="1" SpaceForScroll="0">
+						<ButtonData>
+							<GridButton Size="188,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool" TextAnchor="L,C" TextOffset="12,0"
+										ToolTip="LOC_AWAWMM_GROUP_FILTER_TOOLTIP">
+								<GridData Texture="AWAWMM_PulldownButton" StateOffsetIncrement="0,30" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30"/>
+								<Image Anchor="R,C" Offset="8,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32"/>
+							</GridButton>
+						</ButtonData>
+						<GridData Offset="0,30" Texture="AWAWMM_Popup" InnerPadding="3,6" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="64,64"/>
+						<ScrollPanelData Anchor="C,C" Vertical="1" Size="parent,parent" AutoScrollBar="1">
+							<ScrollBar Anchor="R,C" AnchorSide="O,I" Size="10,14" Vertical="1"
+									   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+								<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+							</ScrollBar>
+						</ScrollPanelData>
+						<StackData StackGrowth="Bottom" Anchor="C,T"/>
+						<InstanceData Name="InstanceOne">
+							<GridButton ID="Button" Anchor="L,T" Size="184,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool"
+										Texture="AWAWMM_PopupRow" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"/>
+						</InstanceData>
+					</PullDown>
+					<GridButton ID="AWAWMMGroupRenameButton" Anchor="L,T" Offset="476,2" Size="26,26" ToolTip="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP"
+								Texture="AWAWMM_IconButton" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="26,26" StateOffsetIncrement="0,26">
+						<Image Anchor="C,C" Size="18,18" Texture="AWAWMM_Icons" TextureOffset="128,32"/>
+					</GridButton>
+					<GridButton ID="AWAWMMGroupDeleteButton" Anchor="L,T" Offset="514,2" Size="26,26" ToolTip="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP"
+								String="LOC_MODS_GROUP_DELETE_NAME"
+								Texture="AWAWMM_IconButton" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="26,26" StateOffsetIncrement="0,26"
+								Style="FontNormal14" FontStyle="Stroke" ColorSet="ButtonCS"/>
+					<Grid ID="AWAWMMSearchGrid" Anchor="L,T" Offset="552,0" Size="376,30" Texture="AWAWMM_Search" SliceCorner="14,10" SliceSize="1,1" SliceTextureSize="96,30">
+						<EditBox ID="SearchEditBox" Style="FontNormal16" Anchor="L,C" Offset="8,0" Size="parent-46,20" MaxLength="40"
+								 String="LOC_AWAWMM_SEARCH_PLACEHOLDER" CallOnChar="1" />
+						<GridButton ID="AWAWMMSearchClearButton" Anchor="R,C" Offset="5,0" Size="22,22" Hidden="1"
+							ToolTip="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP"
+							Texture="AWAWMM_IconButtonSm" SliceCorner="5,5" SliceSize="1,1" SliceTextureSize="20,20" StateOffsetIncrement="0,20">
+							<Image Anchor="C,C" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="128,64"/>
+						</GridButton>
+					</Grid>
+					<PullDown ID="SortListingsPullDown" Anchor="L,T" Size="188,30" Offset="940,0" ScrollThreshold="110" AutoSizePopUp="1" SpaceForScroll="0">
+						<ButtonData>
+							<GridButton Size="188,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool" TextAnchor="L,C" TextOffset="12,0"
+							     ToolTip="LOC_AWAWMM_SORT_LOAD_ORDER_TOOLTIP">
+								<GridData Texture="AWAWMM_PulldownButton" StateOffsetIncrement="0,30" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30"/>
+								<Image Anchor="R,C" Offset="8,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32"/>
+							</GridButton>
+						</ButtonData>
+						<GridData Offset="0,30" Texture="AWAWMM_Popup" InnerPadding="3,6" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="64,64"/>
+						<ScrollPanelData Anchor="C,C" Vertical="1" Size="parent,parent" AutoScrollBar="1">
+							<ScrollBar Anchor="R,C" AnchorSide="O,I" Size="10,14" Vertical="1"
+									   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+								<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+							</ScrollBar>
+						</ScrollPanelData>
+						<StackData StackGrowth="Bottom" Anchor="C,T"/>
+						<InstanceData Name="InstanceOne">
+							<GridButton ID="Button" Anchor="L,T" Size="184,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool"
+										Texture="AWAWMM_PopupRow" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"/>
+						</InstanceData>
+					</PullDown>
+					<GridButton ID="AWAWMMSortOrderToggle" Anchor="L,T" Offset="1140,2" Size="26,26" ToolTip="LOC_AWAWMM_SORT_ORDER_TOOLTIP_ASC"
+								Texture="AWAWMM_IconButton" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="26,26" StateOffsetIncrement="0,26"
+								Style="FontNormal14" FontStyle="Stroke" ColorSet="ButtonCS">
+							<Image ID="AWAWMMSortAscIcon" Anchor="C,C" Size="14,14" Texture="AWAWMM_Icons" TextureOffset="64,0"/>
+							<Image ID="AWAWMMSortDescIcon" Anchor="C,C" Size="14,14" Texture="AWAWMM_Icons" TextureOffset="96,0" Hidden="1"/>
+					</GridButton>
+					<CheckBox ID="AWAWMMGroupByAuthorToggle" Anchor="R,C" Offset="-10,0" Size="129,28" String="LOC_AWAWMM_GROUP_BY_AUTHOR"
+							  Style="FontNormal16" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150" TextOffset="0,0"
+							  ButtonTexture="AWAWMM_Check" ButtonSize="24,24" CheckTexture="AWAWMM_Checkmark" CheckSize="21,20" CheckOffset="2,2" />
+				</Container>
+				<Container ID="AWAWMMFilterBar" Size="parent-24,32" Anchor="L,T" Offset="12,42">
+					<Label ID="AWAWMMFilterCaption" Anchor="L,C" Offset="0,0" String="LOC_AWAWMM_FILTER"
+						   Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+						<Stack ID="AWAWMMFilterRow" Anchor="L,T" Offset="40,6" StackGrowth="Right" Padding="4">
+							<GridButton ID="AWAWMMFilterShowAll" Size="68,20" MinSize="68,20" String="LOC_AWAWMM_FILTER_SHOW_ALL" ToolTip="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<GridButton ID="AWAWMMFilterFavorite" Size="80,20" MinSize="80,20" String="LOC_AWAWMM_FILTER_FAVORITE" ToolTip="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<GridButton ID="AWAWMMFilterOnlyEnabled" Size="80,20" MinSize="80,20" String="LOC_AWAWMM_FILTER_ONLY_ENABLED" ToolTip="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<Box Anchor="L,C" Size="1,12" Color="95,208,168,90"/>
+							<GridButton ID="ShowOfficialContent" Size="56,20" MinSize="56,20" String="LOC_MODS_FIRAXIAN_CONTENT"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<GridButton ID="AWAWMMFilterWorkshop" Size="68,20" MinSize="68,20" String="LOC_AWAWMM_FILTER_WORKSHOP"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<GridButton ID="AWAWMMFilterLocal" Size="68,20" MinSize="68,20" String="LOC_AWAWMM_FILTER_LOCAL"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<Box Anchor="L,C" Size="1,12" Color="95,208,168,90"/>
+							<GridButton ID="AWAWMMFilterSupportsMP" Size="104,20" MinSize="104,20" String="LOC_AWAWMM_FILTER_SUPPORTS_MP" ToolTip="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<Box Anchor="L,C" Size="1,12" Color="95,208,168,90"/>
+							<GridButton ID="AWAWMMFilterRulesetStandard" Size="68,20" MinSize="68,20" String="LOC_AWAWMM_FILTER_RULESET_STANDARD"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<GridButton ID="AWAWMMFilterRulesetXP1" Size="84,20" MinSize="84,20" String="LOC_AWAWMM_FILTER_RULESET_XP1"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+							<GridButton ID="AWAWMMFilterRulesetXP2" Size="84,20" MinSize="84,20" String="LOC_AWAWMM_FILTER_RULESET_XP2"
+										Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+						</Stack>
+					<GridButton ID="AWAWMMCleanupOrphansButton" Size="150,20" Anchor="R,C" String="LOC_AWAWMM_CLEANUP_ORPHANS" ToolTip="LOC_AWAWMM_CLEANUP_ORPHANS_TOOLTIP"
+								Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20" Style="FontNormal12" FontStyle="glow" Color0="238,238,228,255" Color1="0,0,0,150"/>
+				</Container>
+				<Container ID="AWAWMMContentArea" Size="parent-24,parent-126" Anchor="L,T" Offset="12,80">
+					<Grid ID="AWAWMMListFrame" Size="parent-650,parent" Anchor="L,T">
+						<Grid Size="parent,parent" Texture="AWAWMM_Inset" SliceCorner="18,18" SliceSize="1,1" SliceTextureSize="64,64" MinSize="64,64"/>
+						<ScrollPanel ID="ModListings" Anchor="L,T" Vertical="1" Offset="3,3" Size="parent-6,parent-6" AutoScrollBar="1" >
+							<Stack Anchor="L,T" ID="ModListingsStack" StackGrowth="Bottom" Padding="3" />
+							<ScrollBar Offset="3,0" Anchor="R,T" AnchorSide="O,I" Size="10,14" Vertical="1"
+									   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+								<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+							</ScrollBar>
+						</ScrollPanel>
+						<Label ID="NoModsInstalled" Style="FontFlair26" FontStyle="Shadow" ColorSet="ResGoldLabelCS" Anchor="C,C" Offset="0,0" String="LOC_MODS_NONE_INSTALLED" Hidden="1"/>
+					</Grid>
+					<Grid ID="AWAWMMDetailsFrame" Size="640,parent" Anchor="R,T">
+						<Grid Size="parent,parent" Texture="AWAWMM_Panel" SliceCorner="28,28" SliceSize="1,1" SliceTextureSize="128,128"/>
+						<Label ID="AWAWMMDetailCaption" Anchor="L,T" Offset="16,10" String="LOC_AWAWMM_DETAIL_TITLE"
+							   Style="FontNormalBold14" FontStyle="glow" Color0="212,175,55,255" Color1="0,0,0,200"/>
+						<Box Anchor="L,T" Offset="16,32" Size="parent-32,2" Color="95,208,168,90"/>
+						<Label ID="NoModSelected" Style="FontNormal16" Anchor="C,C" Offset="0,0" String="LOC_MODS_NONE_SELECTED" />
+						<Container ID="ModDetailsContainer" Size="parent,parent">
+							<Grid ID="AWAWMMDetailHeader" Size="parent-20,102" Anchor="C,T" Offset="0,40">
+								<Stack ID="AWAWMMDetailHeaderStack" Anchor="L,T" Offset="0,0" Size="parent-84,0" StackGrowth="Down" Padding="3">
+									<Label ID="ModTitle" Style="FontNormal14"/>
+									<Grid ID="AWAWMMDetailSourceRow" Size="parent,15">
+										<Label ID="AWAWMMDetailSubscriptionId" Anchor="L,C" Offset="0,0" Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+									</Grid>
+								</Stack>
+								<Grid ID="AWAWMMAliasEditRow" Size="parent,26" Anchor="L,T" Offset="0,38">
+									<Grid ID="AWAWMMAliasEditFrame" Anchor="L,T" Size="468,26"
+										  Texture="AWAWMM_TextEntry" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="96,26"/>
+									<Grid ID="AWAWMMAliasEditFrameFocus" Anchor="L,T" Size="468,26" Hidden="1"
+										  Texture="AWAWMM_TextEntryFocus" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="96,26"/>
+									<EditBox ID="AWAWMMDetailAliasEditBox" Style="FontNormal12" Anchor="L,C" Offset="5,0" Size="430,26"
+												 MaxLength="40" String="LOC_AWAWMM_ALIAS_HINT" ToolTip="LOC_AWAWMM_ALIAS_TOOLTIP" CallOnChar="1" />
+									<GridButton ID="AWAWMMAliasEditClearButton" Anchor="L,C" Offset="443,0" Size="20,20" Hidden="1"
+										ToolTip="LOC_AWAWMM_CLEAR_INPUT_TOOLTIP"
+										Texture="AWAWMM_IconButtonSm" SliceCorner="5,5" SliceSize="1,1" SliceTextureSize="20,20" StateOffsetIncrement="0,20">
+										<Image Anchor="C,C" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="128,64"/>
+									</GridButton>
+									<GridButton ID="AWAWMMDetailAliasApplyButton" Anchor="L,C" Offset="476,0" Size="68,26" String="LOC_OK"
+												Texture="AWAWMM_ButtonGold26" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,26" StateOffsetIncrement="0,26"
+												Style="FontNormal12" FontStyle="glow" Color0="242,234,208,255" Color1="0,0,0,200"/>
+									<GridButton ID="AWAWMMDetailAliasClearButton" Anchor="L,C" Offset="552,0" Size="68,26" String="LOC_AWAWMM_ALIAS_CLEAR"
+												Texture="AWAWMM_Button26" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,26" StateOffsetIncrement="0,26"
+												Style="FontNormal12" FontStyle="Stroke" ColorSet="ButtonCS"/>
+								</Grid>
+							<Grid ID="AWAWMMDetailGroupRow" Size="parent,30" Anchor="L,T" Offset="0,72">
+								<Label ID="AWAWMMDetailGroupCaption" Anchor="L,C" Offset="10,0" String="LOC_AWAWMM_DETAIL_GROUP"
+									   Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+								<PullDown ID="AWAWMMDetailGroupPullDown" Anchor="L,T" Offset="52,0" Size="568,30" ScrollThreshold="110" AutoSizePopUp="1" SpaceForScroll="0">
+									<ButtonData>
+										<GridButton Size="568,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool" TextAnchor="L,C" TextOffset="12,0">
+											<GridData Texture="AWAWMM_PulldownButton" StateOffsetIncrement="0,30" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30"/>
+											<Image Anchor="R,C" Offset="8,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32"/>
+										</GridButton>
+									</ButtonData>
+									<GridData Offset="0,30" Texture="AWAWMM_Popup" InnerPadding="3,6" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="64,64"/>
+									<ScrollPanelData Anchor="C,C" Vertical="1" Size="parent,parent" AutoScrollBar="1">
+										<ScrollBar Anchor="R,C" AnchorSide="O,I" Size="10,14" Vertical="1"
+												   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+											<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+										</ScrollBar>
+									</ScrollPanelData>
+									<StackData StackGrowth="Bottom" Anchor="C,T"/>
+									<InstanceData Name="InstanceOne">
+										<GridButton ID="Button" Anchor="L,T" Size="564,30" Style="FontNormal16" FontStyle="glow" ColorSet="BodyTextCool"
+													Texture="AWAWMM_PopupRow" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"/>
+									</InstanceData>
+								</PullDown>
+							</Grid>							</Grid>
+							<ScrollPanel ID="ModDetailsScrollPanel" Anchor="L,T" Vertical="1" Offset="0,148" Size="parent,parent-256" AutoScrollBar="1">
+								<Stack Anchor="L,T" ID="ModDetailsStack" StackGrowth="Bottom" Padding="4" Size="parent,10">
+									<Container Size="parent,6"/>
+								<Label ID="ModCompatibilityWarning" Style="FontNormal12" String="LOC_MODS_DETAILS_NOT_COMPATIBLE_WARNING" Anchor="C,T" Offset="0,4"/>
+									<Label ID="ModIdVersion" Style="FontNormal12" Anchor="C,T" Offset="0,4"/>
+									<Label ID="AWAWMMDetailUpdated" Style="FontNormal12" Anchor="C,T" Offset="0,4"/>
+									<Label ID="ModFileName" Style="FontNormal12" Anchor="C,T" Offset="0,4"/>
+									<Container Size="parent,6"/>
+									<Stack ID="ModPropertiesStack" StackGrowth="Down" Anchor="C,T" Size="parent,0" Padding="2">
+								<Grid ID="ModPropRowAuthors" Size="parent,22">
+									<Container ID="ModAuthorsCaption" Anchor="L,T" Size="140,22">
+										<Label Anchor="R,T" Offset="0,0" Style="FontNormal12" String="LOC_AWAWMM_DETAIL_AUTHOR" Color0="160,170,152,255" Color1="0,0,0,160"/>
+									</Container>
+									<Label ID="ModAuthorsValue" Anchor="L,T" Offset="148,0" Style="FontNormal12" WrapWidth="440"/>
+								</Grid>
+								<Grid ID="ModPropRowSpecialThanks" Size="parent,22">
+									<Container ID="ModSpecialThanksCaption" Anchor="L,T" Size="140,22">
+										<Label Anchor="R,T" Offset="0,0" Style="FontNormal12" String="LOC_AWAWMM_DETAIL_SPECIAL_THANKS" Color0="160,170,152,255" Color1="0,0,0,160"/>
+									</Container>
+									<Label ID="ModSpecialThanksValue" Anchor="L,T" Offset="148,0" Style="FontNormal12" WrapWidth="440"/>
+								</Grid>
+								<Grid ID="ModPropRowAffects" Size="parent,22">
+									<Container ID="ModAffectsSavedGamesCaption" Anchor="L,T" Size="140,22">
+										<Label Anchor="R,T" Offset="0,0" Style="FontNormal12" String="LOC_AWAWMM_DETAIL_AFFECTS" Color0="160,170,152,255" Color1="0,0,0,160"/>
+									</Container>
+									<Label ID="ModAffectsSavedGamesValue" Anchor="L,T" Offset="148,0" Style="FontNormal12"/>
+								</Grid>
+								<Grid ID="ModPropRowSinglePlayer" Size="parent,22">
+									<Container ID="ModSupportsSinglePlayerCaption" Anchor="L,T" Size="140,22">
+										<Label Anchor="R,T" Offset="0,0" Style="FontNormal12" String="LOC_AWAWMM_DETAIL_SINGLEPLAYER" Color0="160,170,152,255" Color1="0,0,0,160"/>
+									</Container>
+									<Label ID="ModSupportsSinglePlayerValue" Anchor="L,T" Offset="148,0" Style="FontNormal12"/>
+								</Grid>
+								<Grid ID="ModPropRowMultiplayer" Size="parent,22">
+									<Container ID="ModSupportsMultiplayerCaption" Anchor="L,T" Size="140,22">
+										<Label Anchor="R,T" Offset="0,0" Style="FontNormal12" String="LOC_AWAWMM_DETAIL_MULTIPLAYER" Color0="160,170,152,255" Color1="0,0,0,160"/>
+									</Container>
+									<Label ID="ModSupportsMultiplayerValue" Anchor="L,T" Offset="148,0" Style="FontNormal12"/>
+								</Grid>
+									</Stack>
+									<Container Size="parent,6"/>
+									<Label ID="ModDescription" Style="FontNormal12" Anchor="L,T" Offset="10,4" WrapWidth="parent-20" />
+									<Container Size="parent,6"/>
+									<Stack ID="AWAWMMDlcStack" Offset="10,4" Size="parent-20,0" StackGrowth="Down" Padding="2" Hidden="1">
+										<GridButton ID="AWAWMMDlcHeader" Size="parent,20" ToolTip="LOC_AWAWMM_DETAIL_DLC_TOOLTIP"
+													Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20">
+											<Image ID="AWAWMMDlcFoldUpIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="96,32"/>
+											<Image ID="AWAWMMDlcFoldDownIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32" Hidden="1"/>
+											<Label ID="AWAWMMDlcCaption" Anchor="L,C" Offset="28,0" String="LOC_AWAWMM_DETAIL_DLC_REQUIRED"
+												   Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+										</GridButton>
+										<Stack ID="AWAWMMDlcItemsStack" Size="parent,0" StackGrowth="Down"/>
+									</Stack>
+									<Stack ID="ModDependenciesStack" Offset="10,4" Size="parent-20,0" StackGrowth="Down" Padding="2" Hidden="1">
+										<GridButton ID="AWAWMMDepsHeader" Size="parent,20" ToolTip="LOC_AWAWMM_DETAIL_DEPENDENCY_TOOLTIP"
+													Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20">
+											<Image ID="AWAWMMDepsFoldUpIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="96,32"/>
+											<Image ID="AWAWMMDepsFoldDownIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32" Hidden="1"/>
+											<Label ID="AWAWMMDepsCaption" Anchor="L,C" Offset="28,0" String="LOC_AWAWMM_DETAIL_DEPENDENCY"
+												   Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+										</GridButton>
+										<Stack ID="ModDependencyItemsStack" Size="parent,0" StackGrowth="Down"/>
+									</Stack>
+									<Stack ID="AWAWMMDependentsStack" Offset="10,4" Size="parent-20,0" StackGrowth="Down" Padding="2">
+										<GridButton ID="AWAWMMDependentsHeader" Size="parent,20" ToolTip="LOC_AWAWMM_DETAIL_DEPENDENTS_TOOLTIP"
+													Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20">
+											<Image ID="AWAWMMDependentsFoldUpIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="96,32"/>
+											<Image ID="AWAWMMDependentsFoldDownIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32" Hidden="1"/>
+											<Label ID="AWAWMMDependentsCaption" Anchor="L,C" Offset="28,0" String="LOC_AWAWMM_DETAIL_DEPENDENTS"
+												   Style="FontNormal12" Color0="160,170,152,255" Color1="0,0,0,160"/>
+										</GridButton>
+										<Stack ID="AWAWMMDependentItemsStack" Size="parent,0" StackGrowth="Down"/>
+									</Stack>
+								</Stack>
+								<ScrollBar Length="640" Offset="0,0" Anchor="R,T" AnchorSide="O,I" Size="10,14" Vertical="1"
+										   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+									<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+								</ScrollBar>
+							</ScrollPanel>
+							<Container ID="AWAWMMDetailActions" Size="parent,100" Anchor="C,B">
+								<Box Anchor="C,T" Size="parent-32,2" Color="95,208,168,90"/>
+								<Stack ID="AWAWMMDetailActionRows" Anchor="C,T" Offset="0,0" StackGrowth="Down" Padding="4">
+									<Stack StackGrowth="Right" Padding="8">
+									<GridButton ID="EnableButton" Size="146,30" String="LOC_MODS_ENABLE"
+												Texture="AWAWMM_ButtonGold" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+												Style="FontNormal14" FontStyle="glow" Color0="242,234,208,255" Color1="0,0,0,200"/>
+									<GridButton ID="DisableButton" Size="146,30" String="LOC_MODS_DISABLE"
+												Texture="AWAWMM_ButtonDanger" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+												Style="FontNormal14" FontStyle="glow" Color0="255,240,236,255" Color1="0,0,0,200"/>
+									<GridButton ID="AWAWMMDetailFavoriteButton" Size="146,30" String="LOC_AWAWMM_FAVORITE" ToolTip="LOC_AWAWMM_FAVORITE_TOOLTIP"
+												Texture="AWAWMM_Button" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+												Style="FontNormal14" FontStyle="Stroke" ColorSet="ButtonCS"/>
+									</Stack>
+									<Stack StackGrowth="Right" Padding="8">
+									<GridButton ID="AWAWMMDetailUnsubscribeButton" Size="146,30" String="LOC_MODS_UNSUBSCRIBE" Hidden="1"
+												Texture="AWAWMM_ButtonDanger" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+												Style="FontNormal14" FontStyle="glow" Color0="255,240,236,255" Color1="0,0,0,200"/>
+									<GridButton ID="AWAWMMDetailViewButton" Size="146,30" String="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Hidden="1"
+												Texture="AWAWMM_Button" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+												Style="FontNormal14" FontStyle="Stroke" ColorSet="ButtonCS"/>
+									</Stack>
+								</Stack>
+							</Container>
+						</Container>
+					</Grid>
+				</Container>
+				<Container ID="AWAWMMBottomBar" Size="parent,40" Anchor="C,B">
+					<Stack Anchor="C,C" Offset="-325,-3" StackGrowth="Right" Padding="16">
+						<GridButton ID="EnableAll" Size="160,32" String="LOC_MODS_ENABLE_ALL" ToolTip="LOC_MODS_ENABLE_ALL_AWAWMM_TT"
+								Texture="AWAWMM_ButtonGold" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+								Style="FontNormal16" FontStyle="glow" Color0="242,234,208,255" Color1="0,0,0,200"/>
+						<GridButton ID="DisableAll" Size="160,32" String="LOC_MODS_DISABLE_ALL" ToolTip="LOC_MODS_DISABLE_ALL_AWAWMM_TT"
+								Texture="AWAWMM_ButtonDanger" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+								Style="FontNormal16" FontStyle="glow" Color0="255,240,236,255" Color1="0,0,0,200"/>
+					</Stack>
+					<Label ID="AWAWMMBottomSummary" Anchor="R,C" Offset="12,0" Style="FontNormal14" Color0="160,170,152,255" Color1="0,0,0,160"/>
+				</Container>
+			</Container>
+		</Container>
+	</Grid>
+	<Box ID="NameModGroupPopup" Color="0,0,0,150" Size="parent,parent" ConsumeMouseOver="1" Hidden="1" IgnoreTutorial="1">
+		<AlphaAnim ID="NameModGroupPopupAlpha" AlphaBegin="0" AlphaEnd="1" Speed="3" Function="Root" Cycle="Once" Size="parent,parent">
+			<SlideAnim ID="NameModGroupPopupSlide" Start="0,-20" End="0,0" Speed="3" Function="Root" Cycle="Once" Size="parent,parent">
+				<Grid Size="500,250" Anchor="C,C" Offset="0,-50" Hidden="0" Color="255,255,255,200"
+					  Texture="AWAWMM_DropShadow" SliceCorner="50,50" SliceSize="1,1" SliceTextureSize="100,100">
+					<Grid ID="NameModGroupPopupWindow" Size="parent-50,auto" Anchor="C,C" SizePadding="0,20" Hidden="0"
+						  Texture="AWAWMM_WindowFrame" SliceCorner="55,55" SliceSize="1,1" SliceTextureSize="118,118" MinSize="118,118">
+						<Label ID="BindingTitle" Anchor="C,T" String="LOC_MODS_GROUP_ENTER_NAME" Align="Center" Offset="0,15"
+							   Style="FontNormal16" FontStyle="glow" Color0="212,175,55,255" Color1="0,0,0,220"/>
+						<Stack Offset="0,60" Size="parent,0" StackGrowth="Down" Anchor="C,T" Padding="15">
+							<Grid Anchor="C,T" Size="parent-100,26"
+								      Texture="AWAWMM_TextEntry" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="96,26">
+								<EditBox ID="ModGroupEditBox" Style="FontNormal16" Anchor="L,C" Offset="14,0" Size="parent-28,26" MaxLength="40" String="" CallOnChar="1" />
+								<EditBox ID="ModGroupEditBox" Style="FontNormal16" Anchor="L,C" Offset="14,0" Size="parent-28,26" MaxLength="40" String="" CallOnChar="1" />
+							</Grid>
+								<Grid Size="parent-80,20" Anchor="C,T">
+								    <Label ID="ModGroupErrorLabel" Anchor="C,C" Align="Center" Style="FontNormal14"
+								           FontStyle="glow" Color0="255,132,120,255" Color1="0,0,0,220" String=""/>
+								</Grid>
+							<Container Size="parent,50" Anchor="C,T">
+								<GridButton ID="CreateModGroupButton" Size="150,42" Offset="70,0" Anchor="L,C" String="LOC_OK"
+											Texture="AWAWMM_ButtonGold" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+											Style="FontNormal16" FontStyle="glow" Color0="242,234,208,255" Color1="0,0,0,200"/>
+								<GridButton ID="CancelBindingButton" Size="150,42" Offset="70,0" Anchor="R,C" String="LOC_CANCEL"
+											Texture="AWAWMM_ButtonDanger" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+											Style="FontNormal16" FontStyle="glow" Color0="255,240,236,255" Color1="0,0,0,200"/>
+							</Container>
+						</Stack>
+					</Grid>
+				</Grid>
+			</SlideAnim>
+		</AlphaAnim>
+	</Box>
+	<Box ID="AWAWMMConfirmPopup" Color="0,0,0,150" Size="parent,parent" ConsumeMouseOver="1" Hidden="1" IgnoreTutorial="1">
+		<AlphaAnim ID="AWAWMMConfirmAlpha" AlphaBegin="0" AlphaEnd="1" Speed="3" Function="Root" Cycle="Once" Size="parent,parent">
+			<SlideAnim ID="AWAWMMConfirmSlide" Start="0,-20" End="0,0" Speed="3" Function="Root" Cycle="Once" Size="parent,parent">
+				<Grid Size="600,340" Anchor="C,C" Offset="0,-30" Color="255,255,255,200"
+					  Texture="AWAWMM_DropShadow" SliceCorner="50,50" SliceSize="1,1" SliceTextureSize="100,100">
+					<Grid ID="AWAWMMConfirmWindow" Size="parent-40,parent-40" Anchor="C,C"
+						  Texture="AWAWMM_WindowFrame" SliceCorner="55,55" SliceSize="1,1" SliceTextureSize="118,118" MinSize="118,118">
+						<Label ID="AWAWMMConfirmTitle" Anchor="C,T" Offset="0,16" String="LOC_AWAWMM_CONFIRM_TITLE"
+							   Style="FontNormalBold16" FontStyle="glow" Color0="212,175,55,255" Color1="0,0,0,220"/>
+						<Box Anchor="C,T" Offset="0,42" Size="parent-60,2" Color="95,208,168,90"/>
+						<Label ID="AWAWMMConfirmMessage" Anchor="C,T" Offset="0,54" Style="FontNormal14" WrapWidth="parent-60"/>
+						<ScrollPanel ID="AWAWMMConfirmDepScroll" Anchor="C,T" Offset="0,118" Size="parent-60,104"
+									 Vertical="1" AutoScrollBar="1">
+							<Stack ID="AWAWMMConfirmDepStack" Anchor="L,T" Size="parent-16,0" StackGrowth="Down" Padding="3"/>
+							<ScrollBar Offset="4,0" Anchor="R,T" AnchorSide="O,I" Size="10,14" Vertical="1"
+									   Texture="AWAWMM_ScrollBar" SliceCorner="4,6" SliceSize="1,1" SliceTextureSize="10,14">
+								<Thumb Size="4,12" Vertical="1" Texture="AWAWMM_ScrollThumb" SliceCorner="2,5" SliceSize="1,1" StateOffsetIncrement="0,0" SliceTextureSize="4,12"/>
+							</ScrollBar>
+						</ScrollPanel>
+						<Stack Anchor="C,B" Offset="0,28" StackGrowth="Right" Padding="40">
+							<GridButton ID="AWAWMMConfirmOK" Size="150,38" String="LOC_OK"
+										Texture="AWAWMM_ButtonGold" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+										Style="FontNormal16" FontStyle="glow" Color0="242,234,208,255" Color1="0,0,0,200"/>
+							<GridButton ID="AWAWMMConfirmCancel" Size="150,38" String="LOC_CANCEL"
+										Texture="AWAWMM_Button" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+										Style="FontNormal16" FontStyle="Stroke" ColorSet="ButtonCS"/>
+						</Stack>
+					</Grid>
+				</Grid>
+			</SlideAnim>
+		</AlphaAnim>
+	</Box>
+	<Box ID="AWAWMMSelfPopup" Color="0,0,0,150" Size="parent,parent" ConsumeMouseOver="1" Hidden="1" IgnoreTutorial="1">
+		<AlphaAnim ID="AWAWMMSelfAlpha" AlphaBegin="0" AlphaEnd="1" Speed="3" Function="Root" Cycle="Once" Size="parent,parent">
+			<SlideAnim ID="AWAWMMSelfSlide" Start="0,-20" End="0,0" Speed="3" Function="Root" Cycle="Once" Size="parent,parent">
+				<Grid Size="600,340" Anchor="C,C" Offset="0,-30" Color="255,255,255,200"
+					  Texture="AWAWMM_DropShadow" SliceCorner="50,50" SliceSize="1,1" SliceTextureSize="100,100">
+					<Grid ID="AWAWMMSelfWindow" Size="parent-40,parent-40" Anchor="C,C"
+						  Texture="AWAWMM_WindowFrame" SliceCorner="55,55" SliceSize="1,1" SliceTextureSize="118,118" MinSize="118,118">
+						<Label ID="AWAWMMSelfTitle" Anchor="C,T" Offset="0,16" Style="FontNormalBold16" FontStyle="glow" Color0="212,175,55,255" Color1="0,0,0,220"/>
+						<Box Anchor="C,T" Offset="0,42" Size="parent-60,2" Color="95,208,168,90"/>
+						<Label ID="AWAWMMSelfMessage" Anchor="C,T" Offset="0,54" Style="FontNormal14" WrapWidth="parent-60"/>
+						<Label ID="AWAWMMSelfNotice" Anchor="C,T" Offset="0,124" Style="FontNormal14" WrapWidth="parent-60" Color0="212,175,55,255"/>
+						<Label ID="AWAWMMSelfYesHint" Anchor="C,T" Offset="0,172" Style="FontNormal14" WrapWidth="parent-60"/>
+						<Grid Anchor="C,T" Offset="0,198" Size="260,26"
+							      Texture="AWAWMM_TextEntry" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="96,26">
+							<EditBox ID="AWAWMMSelfYesInput" Style="FontNormal16" Anchor="L,C" Offset="14,0" Size="parent-28,26" MaxLength="16" String="" CallOnChar="1"/>
+						</Grid>
+						<Stack Anchor="C,B" Offset="0,28" StackGrowth="Right" Padding="40">
+							<GridButton ID="AWAWMMSelfOK" Size="150,38" String="LOC_OK"
+										Texture="AWAWMM_ButtonGold" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+										Style="FontNormal16" FontStyle="glow" Color0="242,234,208,255" Color1="0,0,0,200"/>
+							<GridButton ID="AWAWMMSelfCancel" Size="150,38" String="LOC_CANCEL"
+										Texture="AWAWMM_Button" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,30" StateOffsetIncrement="0,30"
+										Style="FontNormal16" FontStyle="Stroke" ColorSet="ButtonCS"/>
+						</Stack>
+					</Grid>
+				</Grid>
+			</SlideAnim>
+		</AlphaAnim>
+	</Box>
+	<Instance Name="ModInstance">
+		<Container ID="ModInstanceRoot" Size="parent,50">
+			<GridButton ID="ModInstanceButton" Size="parent,parent"
+						Texture="AWAWMM_Row" SliceCorner="8,8" SliceSize="1,1" SliceTextureSize="48,50" StateOffsetIncrement="0,50">
+				<Label ID="ModSourceBadge" Style="FontNormal12" Anchor="L,C" Offset="48,0"/>
+				<Image ID="ModSourceBadgeIcon" Anchor="L,C" Offset="48,0" Size="20,20" Texture="AWAWMM_Icons" TextureOffset="160,0"
+					   Hidden="1" ToolTip="LOC_AWAWMM_FILTER_LOCAL"/>
+				<Label ID="ModTitle" Style="FontNormal16" Anchor="L,C" Offset="94,0"/>
+				<Label ID="ModAuthorLabel" Style="FontNormal14" Anchor="L,C" Offset="400,0" Color0="160,170,152,255" Color1="0,0,0,160"/>
+				<Label ID="ModEnabled" Style="FontNormal14" Anchor="R,C" Offset="58,0"/>
+			</GridButton>
+			<Button ID="ModFavoriteButton" Anchor="L,C" Offset="2,0" Size="46,46" ToolTip="LOC_AWAWMM_FAVORITE_TOOLTIP">
+				<Image ID="ModFavoriteOff" Anchor="C,C" Size="28,28" Texture="AWAWMM_Icons" TextureOffset="32,0"/>
+				<Image ID="ModFavoriteOn" Anchor="C,C" Size="28,28" Texture="AWAWMM_Icons" TextureOffset="0,0" Hidden="1"/>
+			</Button>
+			<GridButton ID="ModEnabledSwitch" Anchor="R,C" Offset="8,0" Size="40,22" ToolTip="LOC_AWAWMM_ENABLE_TOOLTIP"
+						Texture="AWAWMM_Switch" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="40,22" States="7" StateOffsetIncrement="0,22"/>
+		</Container>
+	</Instance>
+	<Instance Name="AWAWMMAuthorHeaderInstance">
+		<Container ID="AWAWMMAuthorHeaderRoot" Size="parent,28">
+			<GridButton ID="AWAWMMAuthorHeaderButton" Anchor="L,T" Size="parent,28" ToolTip="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP"
+						Texture="AWAWMM_Chip" SliceCorner="8,6" SliceSize="1,1" SliceTextureSize="48,20" StateOffsetIncrement="0,20">
+				<Image ID="AWAWMMAuthorFoldUpIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="96,32"/>
+				<Image ID="AWAWMMAuthorFoldDownIcon" Anchor="L,C" Offset="6,0" Size="16,16" Texture="AWAWMM_Icons" TextureOffset="64,32" Hidden="1"/>
+				<Label ID="AWAWMMAuthorHeaderLabel" Style="FontNormalBold14" Anchor="L,C" Offset="28,0" Color0="212,175,55,255" Color1="0,0,0,180"/>
+				<Label ID="AWAWMMAuthorHeaderCountLabel" Style="FontNormal12" Anchor="L,C" Offset="260,0" Color0="160,170,152,255" Color1="0,0,0,160"/>
+			</GridButton>
+			<Box Anchor="L,B" Size="parent,1" Color="95,208,168,70"/>
+		</Container>
+	</Instance>
+	<Instance Name="ReferenceItemInstance">
+		<Label ID="Item" Style="FontNormal12" Anchor="L,T" WrapWidth="parent-10" String="[ICON_BULLET] Some Awesome Mod." />
+	</Instance>
+	<Instance Name="AWAWMMFrontEntryInstance">
+		<GridButton ID="AWAWMMFrontEntryButton" Anchor="R,C" Style="ShellButtonOrnateFlat"
+					String="LOC_AWAWMM_ENTRY"/>
+	</Instance>
+</Context>

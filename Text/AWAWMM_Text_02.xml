@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AWAWMM_Text_02 -->
+<!-- Author: Awase -->
+<!-- DateCreated: 10/9/2026 3:03:30 PM -->
+<GameData>
+    <LocalizedText>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_SUBSCRIPTION" Language="en_US">
+            <Text>You must subscribe to this mod before you can enable it.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_SUBSCRIPTION" Language="zh_Hans_CN">
+            <Text>需要先订阅此模组再启用。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_SUBSCRIPTION" Language="zh_Hant_HK">
+            <Text>需要先訂閱此模組才能啟用。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_SUBSCRIPTION" Language="ja_JP">
+            <Text>このMODを有効にするには、先にサブスクリプション登録が必要です。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_SUBSCRIPTION" Language="ko_KR">
+            <Text>이 모드를 활성화하려면 먼저 구독해야 합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_NEEDS_SUBSCRIPTION" Language="ru_RU">
+            <Text>Чтобы включить этот мод, сначала оформите подписку.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_TOOLTIP" Language="en_US">
+            <Text>Enable or disable this mod</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_TOOLTIP" Language="zh_Hans_CN">
+            <Text>启用 / 禁用该模组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_TOOLTIP" Language="zh_Hant_HK">
+            <Text>啟用 / 停用此模組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_TOOLTIP" Language="ja_JP">
+            <Text>このMODを有効 / 無効にする</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_TOOLTIP" Language="ko_KR">
+            <Text>이 모드를 활성화 또는 비활성화합니다</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENABLE_TOOLTIP" Language="ru_RU">
+            <Text>Включить или отключить этот мод</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENTRY" Language="en_US">
+            <Text>AWAW Mod Manager</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENTRY" Language="zh_Hans_CN">
+            <Text>AWAW 模组管理器</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENTRY" Language="zh_Hant_HK">
+            <Text>AWAW 模組管理器</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENTRY" Language="ja_JP">
+            <Text>AWAW MODマネージャー</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENTRY" Language="ko_KR">
+            <Text>AWAW 모드 매니저</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ENTRY" Language="ru_RU">
+            <Text>AWAW Менеджер модов</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE" Language="en_US">
+            <Text>Favorite</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE" Language="zh_Hans_CN">
+            <Text>收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE" Language="zh_Hant_HK">
+            <Text>收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE" Language="ja_JP">
+            <Text>お気に入り</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE" Language="ko_KR">
+            <Text>즐겨찾기</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE" Language="ru_RU">
+            <Text>Избранное</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_ADD" Language="en_US">
+            <Text>Add to Favorites</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_ADD" Language="zh_Hans_CN">
+            <Text>加入收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_ADD" Language="zh_Hant_HK">
+            <Text>加入收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_ADD" Language="ja_JP">
+            <Text>お気に入りに追加</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_ADD" Language="ko_KR">
+            <Text>즐겨찾기에 추가</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_ADD" Language="ru_RU">
+            <Text>Добавить в избранное</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_REMOVE" Language="en_US">
+            <Text>Remove from Favorites</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_REMOVE" Language="zh_Hans_CN">
+            <Text>取消收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_REMOVE" Language="zh_Hant_HK">
+            <Text>取消收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_REMOVE" Language="ja_JP">
+            <Text>お気に入りから削除</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_REMOVE" Language="ko_KR">
+            <Text>즐겨찾기에서 제거</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_REMOVE" Language="ru_RU">
+            <Text>Убрать из избранного</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_TOOLTIP" Language="en_US">
+            <Text>Click to add this mod to your favorites or remove it. Favorites are shown first.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_TOOLTIP" Language="zh_Hans_CN">
+            <Text>点击收藏 / 取消收藏此模组。已收藏模组会被置顶。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_TOOLTIP" Language="zh_Hant_HK">
+            <Text>按一下以收藏 / 取消收藏此模組。已收藏的模組會顯示在最前面。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_TOOLTIP" Language="ja_JP">
+            <Text>クリックするとこのMODをお気に入りに追加 / 削除します。お気に入りのMODは一覧の先頭に表示されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_TOOLTIP" Language="ko_KR">
+            <Text>클릭하면 이 모드를 즐겨찾기에 추가하거나 해제합니다. 즐겨찾기한 모드는 목록 맨 위에 표시됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FAVORITE_TOOLTIP" Language="ru_RU">
+            <Text>Нажмите, чтобы добавить мод в избранное или убрать из него. Избранные моды показываются первыми.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER" Language="en_US">
+            <Text>Filter</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER" Language="zh_Hans_CN">
+            <Text>筛选</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER" Language="zh_Hant_HK">
+            <Text>篩選</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER" Language="ja_JP">
+            <Text>フィルター</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER" Language="ko_KR">
+            <Text>필터</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER" Language="ru_RU">
+            <Text>Фильтр</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE" Language="en_US">
+            <Text>Favorites Only</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE" Language="zh_Hans_CN">
+            <Text>仅显示收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE" Language="zh_Hant_HK">
+            <Text>僅顯示收藏</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE" Language="ja_JP">
+            <Text>お気に入りのみ</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE" Language="ko_KR">
+            <Text>즐겨찾기만</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE" Language="ru_RU">
+            <Text>Только избранное</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP" Language="en_US">
+            <Text>Show only favorite mods, ignoring all other filters.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP" Language="zh_Hans_CN">
+            <Text>只显示已收藏模组，忽略其余所有筛选条件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP" Language="zh_Hant_HK">
+            <Text>只顯示已收藏的模組，忽略其餘所有篩選條件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP" Language="ja_JP">
+            <Text>お気に入りのMODのみを表示します。その他のフィルターはすべて無視されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP" Language="ko_KR">
+            <Text>다른 필터를 무시하고 즐겨찾기한 모드만 표시합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_FAVORITE_TOOLTIP" Language="ru_RU">
+            <Text>Показывать только избранные моды, игнорируя остальные фильтры.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_LOCAL" Language="en_US">
+            <Text>Local Mods</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_LOCAL" Language="zh_Hans_CN">
+            <Text>本地模组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_LOCAL" Language="zh_Hant_HK">
+            <Text>本機模組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_LOCAL" Language="ja_JP">
+            <Text>ローカルMOD</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_LOCAL" Language="ko_KR">
+            <Text>로컬 모드</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_LOCAL" Language="ru_RU">
+            <Text>Локальные моды</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED" Language="en_US">
+            <Text>Enabled Only</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED" Language="zh_Hans_CN">
+            <Text>仅显示启用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED" Language="zh_Hant_HK">
+            <Text>僅顯示已啟用</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED" Language="ja_JP">
+            <Text>有効のみ</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED" Language="ko_KR">
+            <Text>활성화만</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED" Language="ru_RU">
+            <Text>Только включенные</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP" Language="en_US">
+            <Text>Show only enabled mods, ignoring all other filters.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP" Language="zh_Hans_CN">
+            <Text>只显示已启用模组，忽略其余所有筛选条件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP" Language="zh_Hant_HK">
+            <Text>只顯示已啟用的模組，忽略其餘所有篩選條件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP" Language="ja_JP">
+            <Text>有効なMODのみを表示します。その他のフィルターはすべて無視されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP" Language="ko_KR">
+            <Text>다른 필터를 무시하고 활성화된 모드만 표시합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_ONLY_ENABLED_TOOLTIP" Language="ru_RU">
+            <Text>Показывать только включенные моды, игнорируя остальные фильтры.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_STANDARD" Language="en_US">
+            <Text>Standard Rule</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_STANDARD" Language="zh_Hans_CN">
+            <Text>标准规则</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_STANDARD" Language="zh_Hant_HK">
+            <Text>標準規則</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_STANDARD" Language="ja_JP">
+            <Text>標準ルール</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_STANDARD" Language="ko_KR">
+            <Text>표준 규칙</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_STANDARD" Language="ru_RU">
+            <Text>Стандарт</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP1" Language="en_US">
+            <Text>Rise and Fall Rule</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP1" Language="zh_Hans_CN">
+            <Text>迭起兴衰规则</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP1" Language="zh_Hant_HK">
+            <Text>迭起興衰規則</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP1" Language="ja_JP">
+            <Text>文明の興亡ルール</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP1" Language="ko_KR">
+            <Text>흥망성쇠 규칙</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP1" Language="ru_RU">
+            <Text>Rise and Fall</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP2" Language="en_US">
+            <Text>Gathering Storm Rule</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP2" Language="zh_Hans_CN">
+            <Text>风云变幻规则</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP2" Language="zh_Hant_HK">
+            <Text>風雲際會規則</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP2" Language="ja_JP">
+            <Text>嵐の訪れルール</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP2" Language="ko_KR">
+            <Text>몰려드는 폭풍 규칙</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_RULESET_XP2" Language="ru_RU">
+            <Text>Gathering Storm</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL" Language="en_US">
+            <Text>Show All</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL" Language="zh_Hans_CN">
+            <Text>显示全部</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL" Language="zh_Hant_HK">
+            <Text>顯示全部</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL" Language="ja_JP">
+            <Text>すべて表示</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL" Language="ko_KR">
+            <Text>모두 표시</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL" Language="ru_RU">
+            <Text>Показать все</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP" Language="en_US">
+            <Text>Show every mod, ignoring all other filters.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP" Language="zh_Hans_CN">
+            <Text>显示全部模组，忽略其余所有筛选条件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP" Language="zh_Hant_HK">
+            <Text>顯示全部模組，忽略其餘所有篩選條件。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP" Language="ja_JP">
+            <Text>すべてのMODを表示します。その他のフィルターはすべて無視されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP" Language="ko_KR">
+            <Text>다른 필터를 무시하고 모든 모드를 표시합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SHOW_ALL_TOOLTIP" Language="ru_RU">
+            <Text>Показать все моды, игнорируя остальные фильтры.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP" Language="en_US">
+            <Text>Multiplayer Only</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP" Language="zh_Hans_CN">
+            <Text>仅显示支持多人</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP" Language="zh_Hant_HK">
+            <Text>僅顯示支援多人</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP" Language="ja_JP">
+            <Text>マルチプレイヤーのみ</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP" Language="ko_KR">
+            <Text>멀티 플레이만</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP" Language="ru_RU">
+            <Text>Только сетевые</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT" Language="en_US">
+            <Text>Show only mods that support multiplayer.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT" Language="zh_Hans_CN">
+            <Text>只显示支持多人的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT" Language="zh_Hant_HK">
+            <Text>只顯示支援多人遊戲的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT" Language="ja_JP">
+            <Text>マルチプレイヤーに対応したMODのみを表示します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT" Language="ko_KR">
+            <Text>멀티 플레이를 지원하는 모드만 표시합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_SUPPORTS_MP_TT" Language="ru_RU">
+            <Text>Показывать только моды с поддержкой сетевой игры.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_WORKSHOP" Language="en_US">
+            <Text>Workshop Mods</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_WORKSHOP" Language="zh_Hans_CN">
+            <Text>工坊模组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_WORKSHOP" Language="zh_Hant_HK">
+            <Text>工作坊模組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_WORKSHOP" Language="ja_JP">
+            <Text>工房MOD</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_WORKSHOP" Language="ko_KR">
+            <Text>창작마당 모드</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_FILTER_WORKSHOP" Language="ru_RU">
+            <Text>Моды мастерской</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP" Language="en_US">
+            <Text>Click to collapse or expand this author's mods.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP" Language="zh_Hans_CN">
+            <Text>点击可折叠 / 展开该作者的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP" Language="zh_Hant_HK">
+            <Text>按一下可摺疊 / 展開此作者的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP" Language="ja_JP">
+            <Text>クリックすると、この作者のMODを折りたたみ / 展開します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP" Language="ko_KR">
+            <Text>클릭하면 이 만든 이의 모드를 접거나 펼칩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_FOLD_TOOLTIP" Language="ru_RU">
+            <Text>Нажмите, чтобы свернуть или развернуть моды этого автора.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_UNKNOWN" Language="en_US">
+            <Text>Unknown Author</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_UNKNOWN" Language="zh_Hans_CN">
+            <Text>未知作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_UNKNOWN" Language="zh_Hant_HK">
+            <Text>未知作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_UNKNOWN" Language="ja_JP">
+            <Text>不明な作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_UNKNOWN" Language="ko_KR">
+            <Text>알 수 없는 만든 이</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUPBY_AUTHOR_UNKNOWN" Language="ru_RU">
+            <Text>Неизвестный автор</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_BY_AUTHOR" Language="en_US">
+            <Text>Group By Author  </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_BY_AUTHOR" Language="zh_Hans_CN">
+            <Text>按作者分组  </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_BY_AUTHOR" Language="zh_Hant_HK">
+            <Text>依作者分組  </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_BY_AUTHOR" Language="ja_JP">
+            <Text>作者別にグループ化  </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_BY_AUTHOR" Language="ko_KR">
+            <Text>만든 이별 그룹  </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_BY_AUTHOR" Language="ru_RU">
+            <Text>По авторам  </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL" Language="en_US">
+            <Text>Clear Group Membership</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL" Language="zh_Hans_CN">
+            <Text>清除分组归属</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL" Language="zh_Hant_HK">
+            <Text>清除分組歸屬</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL" Language="ja_JP">
+            <Text>グループへの所属を解除</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL" Language="ko_KR">
+            <Text>그룹 소속 해제</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL" Language="ru_RU">
+            <Text>Убрать из группы</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL_TOOLTIP" Language="en_US">
+            <Text>This mod will no longer belong to any group.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL_TOOLTIP" Language="zh_Hans_CN">
+            <Text>该模组不再归属任何分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL_TOOLTIP" Language="zh_Hant_HK">
+            <Text>此模組將不再歸屬任何分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL_TOOLTIP" Language="ja_JP">
+            <Text>このMODはどのグループにも属さなくなります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL_TOOLTIP" Language="ko_KR">
+            <Text>이 모드는 더 이상 어떤 그룹에도 속하지 않습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_CLEAR_ALL_TOOLTIP" Language="ru_RU">
+            <Text>Этот мод больше не будет входить ни в одну группу.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_COUNT_SUFFIX" Language="en_US">
+            <Text> ({1 : number})</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_COUNT_SUFFIX" Language="zh_Hans_CN">
+            <Text>（{1 : number}）</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_COUNT_SUFFIX" Language="zh_Hant_HK">
+            <Text>（{1 : number}）</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_COUNT_SUFFIX" Language="ja_JP">
+            <Text> ({1 : number})</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_COUNT_SUFFIX" Language="ko_KR">
+            <Text> ({1 : number})</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_COUNT_SUFFIX" Language="ru_RU">
+            <Text> ({1 : number})</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP" Language="en_US">
+            <Text>Delete the selected group. This deletes the group only, not the mods.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+            <Text>删除当前选中的分组。此操作不会删除模组，只会将分组删除。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+            <Text>刪除目前選取的分組。此操作不會刪除模組，只會刪除分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP" Language="ja_JP">
+            <Text>選択中のグループを削除します。MODそのものは削除されません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP" Language="ko_KR">
+            <Text>선택한 그룹을 삭제합니다. 모드는 삭제되지 않고 그룹만 삭제됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>Удалить выбранную группу. Удаляется только группа, сами моды остаются.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM" Language="en_US">
+            <Text>Delete this group? {1 : number} mod(s) will no longer belong to it.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM" Language="zh_Hans_CN">
+            <Text>删除此分组？将有 {1 : number} 个模组不再归属此分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM" Language="zh_Hant_HK">
+            <Text>刪除此分組？將有 {1 : number} 個模組不再歸屬此分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM" Language="ja_JP">
+            <Text>このグループを削除しますか？{1 : number}件のMODがこのグループに属さなくなります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM" Language="ko_KR">
+            <Text>이 그룹을 삭제하시겠습니까? 모드 {1 : number}개가 이 그룹에서 제외됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM" Language="ru_RU">
+            <Text>Удалить эту группу? Модов, которые перестанут в нее входить: {1 : number}.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM_ONE" Language="en_US">
+            <Text>Delete this group? {1 : number} mod will no longer belong to it.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM_ONE" Language="zh_Hans_CN">
+            <Text>删除此分组？将有 {1 : number} 个模组不再归属此分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM_ONE" Language="zh_Hant_HK">
+            <Text>刪除此分組？將有 {1 : number} 個模組不再歸屬此分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM_ONE" Language="ja_JP">
+            <Text>このグループを削除しますか？{1 : number}件のMODがこのグループに属さなくなります。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM_ONE" Language="ko_KR">
+            <Text>이 그룹을 삭제하시겠습니까? 모드 {1 : number}개가 이 그룹에서 제외됩니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_CONFIRM_ONE" Language="ru_RU">
+            <Text>Удалить эту группу? Мод, который перестанет в нее входить: {1 : number}.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_TITLE" Language="en_US">
+            <Text>Delete Group</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_TITLE" Language="zh_Hans_CN">
+            <Text>删除分组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_TITLE" Language="zh_Hant_HK">
+            <Text>刪除分組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_TITLE" Language="ja_JP">
+            <Text>グループの削除</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_TITLE" Language="ko_KR">
+            <Text>그룹 삭제</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DELETE_TITLE" Language="ru_RU">
+            <Text>Удаление группы</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DUPLICATE" Language="en_US">
+            <Text>A group with that name already exists.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DUPLICATE" Language="zh_Hans_CN">
+            <Text>已存在同名分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DUPLICATE" Language="zh_Hant_HK">
+            <Text>已存在同名分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DUPLICATE" Language="ja_JP">
+            <Text>同じ名前のグループがすでに存在します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DUPLICATE" Language="ko_KR">
+            <Text>같은 이름의 그룹이 이미 있습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_DUPLICATE" Language="ru_RU">
+            <Text>Группа с таким названием уже существует.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_ALL" Language="en_US">
+            <Text>All Groups</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_ALL" Language="zh_Hans_CN">
+            <Text>全部分组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_ALL" Language="zh_Hant_HK">
+            <Text>全部分組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_ALL" Language="ja_JP">
+            <Text>すべて</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_ALL" Language="ko_KR">
+            <Text>모든 그룹</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_ALL" Language="ru_RU">
+            <Text>Все группы</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_PREFIX" Language="en_US">
+            <Text>Group: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_PREFIX" Language="zh_Hans_CN">
+            <Text>分组：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_PREFIX" Language="zh_Hant_HK">
+            <Text>分組：</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_PREFIX" Language="ja_JP">
+            <Text>グループ: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_PREFIX" Language="ko_KR">
+            <Text>그룹: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_PREFIX" Language="ru_RU">
+            <Text>Группа: </Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_TOOLTIP" Language="en_US">
+            <Text>Show only mods that belong to the selected group.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_TOOLTIP" Language="zh_Hans_CN">
+            <Text>只显示属于所选分组的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_TOOLTIP" Language="zh_Hant_HK">
+            <Text>只顯示屬於所選分組的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_TOOLTIP" Language="ja_JP">
+            <Text>選択したグループに属するMODのみを表示します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_TOOLTIP" Language="ko_KR">
+            <Text>선택한 그룹에 속한 모드만 표시합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_FILTER_TOOLTIP" Language="ru_RU">
+            <Text>Показывать только моды выбранной группы.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_INVALID" Language="en_US">
+            <Text>Group names cannot contain ; or = and must be 24 characters or fewer.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_INVALID" Language="zh_Hans_CN">
+            <Text>分组名不能包含 ; 或 =，且最多 24 个字符。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_INVALID" Language="zh_Hant_HK">
+            <Text>分組名稱不能包含 ; 或 =，且最多 24 個字。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_INVALID" Language="ja_JP">
+            <Text>グループ名に ; や = は使用できません。また、24文字以内で入力してください。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_INVALID" Language="ko_KR">
+            <Text>그룹 이름에는 ; 또는 = 문자를 사용할 수 없으며 24자 이하여야 합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_INVALID" Language="ru_RU">
+            <Text>Название группы не может содержать ; или = и должно быть не длиннее 24 символов.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW" Language="en_US">
+            <Text>New Group…</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW" Language="zh_Hans_CN">
+            <Text>新建分组…</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW" Language="zh_Hant_HK">
+            <Text>新增分組…</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW" Language="ja_JP">
+            <Text>新しいグループ…</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW" Language="ko_KR">
+            <Text>새 그룹…</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW" Language="ru_RU">
+            <Text>Новая группа…</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TITLE" Language="en_US">
+            <Text>Enter a Group Name</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TITLE" Language="zh_Hans_CN">
+            <Text>输入分组名称</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TITLE" Language="zh_Hant_HK">
+            <Text>輸入分組名稱</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TITLE" Language="ja_JP">
+            <Text>グループ名を入力</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TITLE" Language="ko_KR">
+            <Text>그룹 이름 입력</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TITLE" Language="ru_RU">
+            <Text>Введите название группы</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TOOLTIP" Language="en_US">
+            <Text>Create a new group and add this mod to it.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TOOLTIP" Language="zh_Hans_CN">
+            <Text>新建一个分组，并把当前模组加入其中。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TOOLTIP" Language="zh_Hant_HK">
+            <Text>新增一個分組，並將目前的模組加入其中。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TOOLTIP" Language="ja_JP">
+            <Text>新しいグループを作成し、このMODを追加します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TOOLTIP" Language="ko_KR">
+            <Text>새 그룹을 만들어 이 모드를 추가합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NEW_TOOLTIP" Language="ru_RU">
+            <Text>Создать новую группу и добавить в нее этот мод.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NONE" Language="en_US">
+            <Text>Ungrouped</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NONE" Language="zh_Hans_CN">
+            <Text>未分组</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NONE" Language="zh_Hant_HK">
+            <Text>未分組</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NONE" Language="ja_JP">
+            <Text>グループなし</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NONE" Language="ko_KR">
+            <Text>그룹 없음</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_NONE" Language="ru_RU">
+            <Text>Без группы</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP" Language="en_US">
+            <Text>Rename the selected group.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP" Language="zh_Hans_CN">
+            <Text>重命名当前选中的分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP" Language="zh_Hant_HK">
+            <Text>重新命名目前選取的分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP" Language="ja_JP">
+            <Text>選択中のグループの名前を変更します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP" Language="ko_KR">
+            <Text>선택한 그룹의 이름을 바꿉니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_BUTTON_TOOLTIP" Language="ru_RU">
+            <Text>Переименовать выбранную группу.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_TITLE" Language="en_US">
+            <Text>Enter a New Group Name</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_TITLE" Language="zh_Hans_CN">
+            <Text>输入新的分组名称</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_TITLE" Language="zh_Hant_HK">
+            <Text>輸入新的分組名稱</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_TITLE" Language="ja_JP">
+            <Text>新しいグループ名を入力</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_TITLE" Language="ko_KR">
+            <Text>새 그룹 이름 입력</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RENAME_TITLE" Language="ru_RU">
+            <Text>Введите новое название группы</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RESERVED" Language="en_US">
+            <Text>Group names cannot begin with AWAWMM.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RESERVED" Language="zh_Hans_CN">
+            <Text>分组名不能以 AWAWMM 开头。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RESERVED" Language="zh_Hant_HK">
+            <Text>分組名稱不能以 AWAWMM 開頭。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RESERVED" Language="ja_JP">
+            <Text>グループ名を AWAWMM で始めることはできません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RESERVED" Language="ko_KR">
+            <Text>그룹 이름은 AWAWMM으로 시작할 수 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_RESERVED" Language="ru_RU">
+            <Text>Название группы не может начинаться с AWAWMM.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_TOGGLE_TOOLTIP" Language="en_US">
+            <Text>Add this mod to or remove it from this group.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_TOGGLE_TOOLTIP" Language="zh_Hans_CN">
+            <Text>把该模组加入或移出此分组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_TOGGLE_TOOLTIP" Language="zh_Hant_HK">
+            <Text>將此模組加入或移除此分組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_TOGGLE_TOOLTIP" Language="ja_JP">
+            <Text>このMODをこのグループに追加 / 削除します。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_TOGGLE_TOOLTIP" Language="ko_KR">
+            <Text>이 모드를 이 그룹에 추가하거나 제거합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_GROUP_TOGGLE_TOOLTIP" Language="ru_RU">
+            <Text>Добавить мод в эту группу или убрать из нее.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MODGROUP_TOOLTIP" Language="en_US">
+            <Text>Select a mod group. A mod group stores the list of enabled mods.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MODGROUP_TOOLTIP" Language="zh_Hans_CN">
+            <Text>选择模组群组。模组群组保存已启用模组的列表。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MODGROUP_TOOLTIP" Language="zh_Hant_HK">
+            <Text>選擇模組群組。模組群組會儲存已啟用模組的清單。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MODGROUP_TOOLTIP" Language="ja_JP">
+            <Text>MODグループを選択します。MODグループには有効なMODのリストが保存されます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MODGROUP_TOOLTIP" Language="ko_KR">
+            <Text>모드 그룹을 선택합니다. 모드 그룹은 활성화된 모드 목록을 저장합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_MODGROUP_TOOLTIP" Language="ru_RU">
+            <Text>Выберите группу модов. Группа хранит список включенных модов.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_MODS_FILTERED" Language="en_US">
+            <Text>No mods match the current filters.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_MODS_FILTERED" Language="zh_Hans_CN">
+            <Text>没有符合当前筛选条件的模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_MODS_FILTERED" Language="zh_Hant_HK">
+            <Text>沒有符合目前篩選條件的模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_MODS_FILTERED" Language="ja_JP">
+            <Text>現在のフィルターに一致するMODはありません。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_MODS_FILTERED" Language="ko_KR">
+            <Text>현재 필터에 해당하는 모드가 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_MODS_FILTERED" Language="ru_RU">
+            <Text>Нет модов, соответствующих текущим фильтрам.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_VALUE" Language="en_US">
+            <Text>—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_VALUE" Language="zh_Hans_CN">
+            <Text>—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_VALUE" Language="zh_Hant_HK">
+            <Text>—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_VALUE" Language="ja_JP">
+            <Text>—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_VALUE" Language="ko_KR">
+            <Text>—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_NO_VALUE" Language="ru_RU">
+            <Text>—</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Language="en_US">
+            <Text>Open Workshop Page</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Language="zh_Hans_CN">
+            <Text>打开工坊页面</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Language="zh_Hant_HK">
+            <Text>開啟工作坊頁面</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Language="ja_JP">
+            <Text>工房ページを開く</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Language="ko_KR">
+            <Text>창작마당 페이지 열기</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_OPEN_WORKSHOP_PAGE" Language="ru_RU">
+            <Text>Открыть мастерскую</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_RIGHTCLICK_TOOLTIP" Language="en_US">
+            <Text>[NEWLINE]Right-click to enable or disable this mod.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_RIGHTCLICK_TOOLTIP" Language="zh_Hans_CN">
+            <Text>[NEWLINE]右键点击可启用 / 禁用该模组。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_RIGHTCLICK_TOOLTIP" Language="zh_Hant_HK">
+            <Text>[NEWLINE]按滑鼠右鍵可啟用 / 停用此模組。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_RIGHTCLICK_TOOLTIP" Language="ja_JP">
+            <Text>[NEWLINE]右クリックでこのMODを有効 / 無効にできます。</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_RIGHTCLICK_TOOLTIP" Language="ko_KR">
+            <Text>[NEWLINE]마우스 오른쪽 버튼을 클릭하여 이 모드를 활성화하거나 비활성화합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_RIGHTCLICK_TOOLTIP" Language="ru_RU">
+            <Text>[NEWLINE]Щелкните правой кнопкой, чтобы включить или отключить этот мод.</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ROW_UNSUBSCRIBED" Language="en_US">
+            <Text>Unsubscribed</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ROW_UNSUBSCRIBED" Language="zh_Hans_CN">
+            <Text>已退订</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ROW_UNSUBSCRIBED" Language="zh_Hant_HK">
+            <Text>已退訂</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ROW_UNSUBSCRIBED" Language="ja_JP">
+            <Text>登録解除済み</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ROW_UNSUBSCRIBED" Language="ko_KR">
+            <Text>구독 취소됨</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_ROW_UNSUBSCRIBED" Language="ru_RU">
+            <Text>Подписка отменена</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SEARCH_PLACEHOLDER" Language="en_US">
+            <Text>Search mod, author, alias or sub ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SEARCH_PLACEHOLDER" Language="zh_Hans_CN">
+            <Text>点击搜索模组名称、作者、备注名、订阅 ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SEARCH_PLACEHOLDER" Language="zh_Hant_HK">
+            <Text>搜尋模組名稱、作者、備註名、訂閱 ID</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SEARCH_PLACEHOLDER" Language="ja_JP">
+            <Text>MOD名・作者・別名・登録IDで検索</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SEARCH_PLACEHOLDER" Language="ko_KR">
+            <Text>모드, 만든 이, 별명, 구독 ID 검색</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SEARCH_PLACEHOLDER" Language="ru_RU">
+            <Text>Поиск: мод, автор</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_AUTHOR" Language="en_US">
+            <Text>Sort By: Author</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_AUTHOR" Language="zh_Hans_CN">
+            <Text>排序方式：作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_AUTHOR" Language="zh_Hant_HK">
+            <Text>排序方式：作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_AUTHOR" Language="ja_JP">
+            <Text>並べ替え: 作者</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_AUTHOR" Language="ko_KR">
+            <Text>정렬 기준: 만든 이</Text>
+        </Replace>
+        <Replace Tag="LOC_AWAWMM_SORTBY_AUTHOR" Language="ru_RU">
+            <Text>Сортировать по: автору</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
